@@ -32,6 +32,21 @@
     },
     {
       "dateISO": "2026-08-26",
+      "kind": "evening",
+      "titleZh": "每日参考 · 全资产共识扫描 · 标普500 (SPY)共识最强",
+      "tagsZh": "DAILY BRIEF · 50 MASTERS CONSENSUS SCAN · S&P 500 (SPY)",
+      "titleEn": "Daily Reference · Cross-Asset Consensus Scan",
+      "tagsEn": "DAILY BRIEF · 50 MASTERS CONSENSUS SCAN",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260826-evening.html",
+        "en": "20260826-evening-en.html"
+      },
+      "file": "20260826-evening.html"
+    },
+    {
+      "dateISO": "2026-08-26",
       "kind": "daily",
       "titleZh": "NVDA 财报审判日 · 「贬值交易」全面回归 · 霍尔木兹航运突破",
       "tagsZh": "MORNING BRIEF · Aug 26 · NVDA EARNINGS DAY · DEBASEMENT TRADE · HORMUZ CHANNEL · CANADA TARIFFS",
