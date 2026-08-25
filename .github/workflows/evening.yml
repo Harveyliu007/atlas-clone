@@ -11,8 +11,8 @@ permissions:
   pages: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: ${{ github.workflow }}   # 同一工作流禁止并发运行，避免提交竞争
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -35,8 +35,9 @@ jobs:
             echo "no changes"
           else
             git commit -m "晚报（05:00）: $(date -u +%Y-%m-%d)"
-            git push
           fi
+          git pull --rebase -X ours origin main
+          git push
       - name: 配置 Pages
         uses: actions/configure-pages@v5
       - name: 上传站点
