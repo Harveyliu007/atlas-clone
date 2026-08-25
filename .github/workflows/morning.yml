@@ -1,8 +1,6 @@
 name: Atlas Morning Brief
 
 on:
-  push:
-    branches: [main]          # 代码更新时自动重新生成并部署
   schedule:
     - cron: "0 23 * * 1-5"   # UTC 23:00 = 北京时间 晨报（07:00）
   workflow_dispatch: {}      # 支持手动触发
