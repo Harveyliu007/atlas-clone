@@ -1,0 +1,8 @@
+node_modules/
+raw/
+*.log
+.vercel/
+# 中间产物（每次运行重新生成，不入库）
+data.json
+news-zh.json
+news-en.json

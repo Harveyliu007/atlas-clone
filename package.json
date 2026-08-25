@@ -1,0 +1,16 @@
+{
+  "name": "atlas-clone",
+  "version": "1.0.0",
+  "description": "Atlas World Live 克隆项目：AI 每日宏观交易简报生成器（50 位投资大师框架分析引擎）",
+  "type": "commonjs",
+  "main": "src/generate.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "generate": "node src/generate.js",
+    "generate:mock": "node src/generate.js daily --mock",
+    "generate:evening": "node src/generate.js evening",
+    "generate:weekly": "node src/generate.js weekly",
+    "serve": "npx http-server public -p 8080"
+  },
+  "license": "MIT"
+}
