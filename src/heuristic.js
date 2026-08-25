@@ -244,10 +244,18 @@ function buildReport(data, news, opts = {}) {
   const radar = computeRadar(quotes);
   const cards = buildCards(radar, quotes);
   const signals = deriveSignals(radar, quotes);
-  const events = news.slice(0, 10).map((n) => ({
+  // 大事记选材：约 7 条中文 + 3 条英文大媒体，来源多元
+  const isCjk = (s) => /[\u4e00-\u9fff]/.test(s || "");
+  const zhItems = news.filter((n) => isCjk(n.title));
+  const enItems = news.filter((n) => !isCjk(n.title));
+  const picked = [...zhItems.slice(0, 7), ...enItems.slice(0, 3)]
+    .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate))
+    .slice(0, 10);
+  const events = picked.map((n) => ({
     title: n.title,
     body: n.snippet || n.title,
     source: (n.source ? n.source + " · " : "") + fmtDateCN(n.pubDate),
+    link: n.link || "",
   }));
   const redAlerts = pickAlerts(news);
   const hotWords = news.slice(0, 8).map((n) => "#" + (n.title || "").slice(0, 12).replace(/\s+/g, ""));

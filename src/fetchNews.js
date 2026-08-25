@@ -1,5 +1,44 @@
-// 新闻采集：Bing News RSS（免费）为主，Google News RSS 兜底
+// ============================================================
+// 新闻采集（多源融合，来源多元化）：
+//   中文：华尔街见闻 API（实时快讯）+ Bing 中文 RSS
+//   英文：Bing News RSS（聚合 Reuters/WSJ/Bloomberg 等）+ CNBC/NYT/FT 官方 RSS
+//   出版方自动识别（域名 → 媒体名），保证报告来源多元可溯源
+// ============================================================
 const config = require("../config");
+
+// 域名 → 媒体名映射（Bing 聚合条目自动标注出版方）
+const OUTLET_MAP = {
+  "reuters.com": "Reuters",
+  "cnbc.com": "CNBC",
+  "wsj.com": "WSJ",
+  "bloomberg.com": "Bloomberg",
+  "nytimes.com": "NYT",
+  "ft.com": "Financial Times",
+  "marketwatch.com": "MarketWatch",
+  "barrons.com": "Barron's",
+  "apnews.com": "AP",
+  "cnn.com": "CNN",
+  "bbc.com": "BBC",
+  "forbes.com": "Forbes",
+  "businessinsider.com": "Business Insider",
+  "yahoo.com": "Yahoo Finance",
+  "investing.com": "Investing.com",
+  "foxbusiness.com": "Fox Business",
+  "theguardian.com": "The Guardian",
+  "fool.com": "Motley Fool",
+  "fortune.com": "Fortune",
+  "kiplinger.com": "Kiplinger",
+};
+
+function outletName(url) {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    for (const k of Object.keys(OUTLET_MAP)) {
+      if (host === k || host.endsWith("." + k)) return OUTLET_MAP[k];
+    }
+    return host;
+  } catch (e) { return url || ""; }
+}
 
 function decodeEntities(s) {
   return (s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -11,19 +50,22 @@ function decodeEntities(s) {
 
 function parseRss(xml) {
   const items = [];
+  // 被反爬时源站可能返回 HTML 页面而非 RSS：直接视为失败，触发重试/回退
+  if (!/<item[\s>]/.test(xml) && /<html/i.test(xml)) throw new Error("got HTML instead of RSS");
   const re = /<item>([\s\S]*?)<\/item>/g;
   let m;
   while ((m = re.exec(xml)) !== null) {
     const body = m[1];
     const grab = (tag) => {
-      const t = body.match(new RegExp("<" + tag + "[^>]*>([\s\S]*?)<\/" + tag + ">"));
+      const t = body.match(new RegExp("<" + tag + "[^>]*>([\\s\\S]*?)<\\/" + tag + ">"));
       return t ? decodeEntities(t[1]) : "";
     };
+    const srcUrl = (body.match(/<source[^>]*url="([^"]+)"/) || [])[1] || "";
     items.push({
       title: grab("title"),
       link: grab("link"),
       pubDate: grab("pubDate"),
-      source: (body.match(/<source[^>]*url="([^"]+)"/) || [])[1] || "",
+      source: outletName(srcUrl) || "Bing News",
       snippet: grab("description"),
     });
   }
@@ -51,20 +93,7 @@ async function retryFetch(url, tries = 3) {
   throw lastErr;
 }
 
-async function fetchBing(topic, lang) {
-  const q = encodeURIComponent(lang === "zh" ? topic.zh : topic.en);
-  const url = "https://www.bing.com/news/search?q=" + q + "&format=rss&setlang=" + (lang === "zh" ? "zh-hans" : "en-US");
-  return parseRss(await retryFetch(url));
-}
-
-async function fetchGoogle(topic, lang) {
-  const q = encodeURIComponent(lang === "zh" ? topic.zh : topic.en);
-  const hl = lang === "zh" ? "zh-CN" : "en-US";
-  const url = "https://news.google.com/rss/search?q=" + q + "&hl=" + hl + "&gl=" + (lang === "zh" ? "CN" : "US") + "&ceid=" + (lang === "zh" ? "CN:zh-Hans" : "US:en");
-  return parseRss(await retryFetch(url));
-}
-
-// 华尔街见闻（中文高质量财经快讯，免费 API，无 key）
+// 华尔街见闻（中文财经快讯，免费 API）
 const WSC_CHANNELS = ["global-channel", "us-shares", "a-shares", "gold", "forex", "commodities", "crypto"];
 async function fetchWallstreetcn(limit = 20) {
   const items = [];
@@ -88,38 +117,40 @@ async function fetchWallstreetcn(limit = 20) {
   return items;
 }
 
-// 主入口：抓取所有主题（限速 4 并发），去重，按时间倒序
-async function fetchNews(lang = "zh") {
-  const topics = config.data.news.topics;
-  const results = [];
-  for (let i = 0; i < topics.length; i += 4) {
-    const batch = topics.slice(i, i + 4);
-    const settled = await Promise.allSettled(batch.map(async (t) => {
-      try {
-        if (config.data.news.provider === "google") return await fetchGoogle(t, lang);
-        return await fetchBing(t, lang);
-      } catch (e) {
-        try { return await fetchBing(t, lang); } // 回退
-        catch (e2) { console.warn("[news] topic failed:", t.id, String(e2).slice(0, 100)); return []; }
-      }
-    }));
-    for (const r of settled) {
-      if (r.status === "fulfilled") results.push(...r.value);
-      else results.push([]);
-    }
-    if (i + 4 < topics.length) await sleep(400);
+// 官方英文 RSS（多元来源）
+const EN_RSS_SOURCES = [
+  { id: "cnbc", url: "https://www.cnbc.com/id/100003114/device/rss/rss.html", name: "CNBC" },
+  { id: "nyt-biz", url: "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", name: "NYT" },
+  { id: "ft", url: "https://www.ft.com/rss/home", name: "Financial Times" },
+];
+async function fetchRssSource(src) {
+  try {
+    const items = parseRss(await retryFetch(src.url, 2));
+    for (const it of items) it.source = src.name;
+    return items;
+  } catch (e) {
+    console.warn("[news] rss source failed:", src.id, String(e).slice(0, 80));
+    return [];
   }
-  let allItems = results.flat();
-  // 中文模式：华尔街见闻优先，与 Bing 结果合并
-  if (lang === "zh") {
-    try {
-      const wsc = await fetchWallstreetcn();
-      if (wsc.length) allItems = [...wsc, ...allItems];
-    } catch (e) { console.warn("[news] wsc failed:", String(e).slice(0, 80)); }
-  }
+}
+
+async function fetchBing(topic, lang) {
+  const q = encodeURIComponent(lang === "zh" ? topic.zh : topic.en);
+  const url = "https://www.bing.com/news/search?q=" + q + "&format=rss&setlang=" + (lang === "zh" ? "zh-hans" : "en-US");
+  return parseRss(await retryFetch(url));
+}
+
+async function fetchGoogle(topic, lang) {
+  const q = encodeURIComponent(lang === "zh" ? topic.zh : topic.en);
+  const hl = lang === "zh" ? "zh-CN" : "en-US";
+  const url = "https://news.google.com/rss/search?q=" + q + "&hl=" + hl + "&gl=" + (lang === "zh" ? "CN" : "US") + "&ceid=" + (lang === "zh" ? "CN:zh-Hans" : "US:en");
+  return parseRss(await retryFetch(url));
+}
+
+function dedupeSort(items) {
   const seen = new Set();
   const all = [];
-  for (const it of allItems) {
+  for (const it of items) {
     const key = normTitle(it.title).slice(0, 80);
     if (seen.has(key)) continue;
     seen.add(key);
@@ -129,4 +160,36 @@ async function fetchNews(lang = "zh") {
   return all;
 }
 
-module.exports = { fetchNews, parseRss };
+// 主入口：多源融合
+async function fetchNews(lang = "zh") {
+  const topics = config.data.news.topics;
+  const pools = [];
+
+  // 1. 中文：华尔街见闻
+  if (lang === "zh") {
+    try { pools.push(await fetchWallstreetcn()); } catch (e) { console.warn("[news] wsc failed:", String(e).slice(0, 80)); }
+  }
+
+  // 2. Bing 主题（限速 4 并发）
+  for (let i = 0; i < topics.length; i += 4) {
+    const batch = topics.slice(i, i + 4);
+    const settled = await Promise.allSettled(batch.map(async (t) => {
+      try {
+        if (config.data.news.provider === "google") return await fetchGoogle(t, lang);
+        return await fetchBing(t, lang);
+      } catch (e) {
+        try { return await fetchBing(t, lang); }
+        catch (e2) { console.warn("[news] topic failed:", t.id, String(e2).slice(0, 100)); return []; }
+      }
+    }));
+    for (const r of settled) if (r.status === "fulfilled") pools.push(r.value);
+    if (i + 4 < topics.length) await sleep(400);
+  }
+
+  // 3. 官方英文 RSS（中英文报告都融合，保证来源多元）
+  for (const src of EN_RSS_SOURCES) pools.push(await fetchRssSource(src));
+
+  return dedupeSort(pools.flat());
+}
+
+module.exports = { fetchNews, parseRss, outletName };
