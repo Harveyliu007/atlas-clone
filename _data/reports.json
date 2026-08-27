@@ -74,6 +74,21 @@
         "en": "20260827-evening-en.html"
       },
       "file": "20260827-evening.html"
+    },
+    {
+      "dateISO": "2026-08-27",
+      "kind": "daily",
+      "titleZh": "全球资产异动：黄金铜价飙升，AI叙事与贬值交易共振",
+      "tagsZh": "MORNING BRIEF · AUG 27 · DEBASEMENT TRADE · AI EARNINGS · COMMODITY RALLY",
+      "titleEn": "Global Assets in Turmoil: Gold and Copper Surge, AI Narrative and Debasement Trade in Tandem",
+      "tagsEn": "MORNING BRIEF · AUG 27 · DEBASEMENT TRADE · AI EARNINGS · COMMODITY RALLY",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20260827-zh.html",
+        "en": "20260827-en.html"
+      },
+      "file": "20260827.html"
     }
   ]
 }
