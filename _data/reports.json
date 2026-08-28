@@ -89,6 +89,21 @@
         "en": "20260827-en.html"
       },
       "file": "20260827.html"
+    },
+    {
+      "dateISO": "2026-08-28",
+      "kind": "evening",
+      "titleZh": "AI算力重估与美元贬值交易共振，全球风险资产普涨",
+      "tagsZh": "EVENING BRIEF · Aug 28 · NVDA EARNINGS · DEBASEMENT TRADE",
+      "titleEn": "AI Re-rating & Debasement Trade Reshape Global Risk Assets",
+      "tagsEn": "EVENING BRIEF · Aug 28 · NVDA EARNINGS · DEBASEMENT TRADE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260828-evening.html",
+        "en": "20260828-evening-en.html"
+      },
+      "file": "20260828-evening.html"
     }
   ]
 }
