@@ -119,6 +119,21 @@
         "en": "20260828-en.html"
       },
       "file": "20260828.html"
+    },
+    {
+      "dateISO": "2026-08-29",
+      "kind": "evening",
+      "titleZh": "鹰派沃什冲击全球资产，黄金重挫比特币暴跌",
+      "tagsZh": "EVENING BRIEF · AUG 29 · WARSH HAWKISH · GOLD CRASH · BTC PLUNGE",
+      "titleEn": "Hawkish Warsh Shakes Global Assets, Gold and Bitcoin Plunge",
+      "tagsEn": "EVENING BRIEF · AUG 29 · WARSH HAWKISH · GOLD CRASH · BTC PLUNGE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20260829-evening.html",
+        "en": "20260829-evening-en.html"
+      },
+      "file": "20260829-evening.html"
     }
   ]
 }
