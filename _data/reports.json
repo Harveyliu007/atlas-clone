@@ -134,6 +134,21 @@
         "en": "20260829-evening-en.html"
       },
       "file": "20260829-evening.html"
+    },
+    {
+      "dateISO": "2026-08-29",
+      "kind": "daily",
+      "titleZh": "鹰派风暴席卷全球资产，避险与通胀交易并行",
+      "tagsZh": "JACKSON HOLE HAWKISH SHIFT · VENEZUELA OIL DEAL · CRYPTO CRASH · GOLD RECORD",
+      "titleEn": "Hawkish Storm Sweeps Global Assets, Hedging and Inflation Trades Coexist",
+      "tagsEn": "JACKSON HOLE HAWKISH SHIFT · VENEZUELA OIL DEAL · CRYPTO CRASH · GOLD RECORD",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20260829-zh.html",
+        "en": "20260829-en.html"
+      },
+      "file": "20260829.html"
     }
   ]
 }
