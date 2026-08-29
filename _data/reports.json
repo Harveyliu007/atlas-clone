@@ -149,6 +149,21 @@
         "en": "20260829-en.html"
       },
       "file": "20260829.html"
+    },
+    {
+      "dateISO": "2026-08-30",
+      "kind": "weekly",
+      "titleZh": "全球风险资产现异常跳涨，美联储鹰派转向与地缘风险交织",
+      "tagsZh": "MORNING BRIEF · AUG 29 · FED HAWKISH · VENEZUELA OIL · CRYPTO SURGE",
+      "titleEn": "Global Risk Assets Surge Anomalously, Fed Hawkish Turn and Geopolitical Risks Intertwine",
+      "tagsEn": "MORNING BRIEF · AUG 29 · FED HAWKISH · VENEZUELA OIL · CRYPTO SURGE",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20260830-zh.html",
+        "en": "weekly-20260830-en.html"
+      },
+      "file": "weekly-20260830.html"
     }
   ]
 }
