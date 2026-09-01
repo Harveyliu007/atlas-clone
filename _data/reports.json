@@ -179,6 +179,21 @@
         "en": "20260901-evening-en.html"
       },
       "file": "20260901-evening.html"
+    },
+    {
+      "dateISO": "2026-09-01",
+      "kind": "daily",
+      "titleZh": "G20增长叙事与美伊冲突共振，全球资产剧烈重估",
+      "tagsZh": "MORNING BRIEF · SEP 1 · G20 GROWTH NARRATIVE · IRAN OIL SHOCK · RATE HIKE ODDS SURGE",
+      "titleEn": "G20 Growth Narrative and Iran Conflict Reshape Global Assets",
+      "tagsEn": "MORNING BRIEF · SEP 1 · G20 GROWTH NARRATIVE · IRAN OIL SHOCK · RATE HIKE ODDS SURGE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260901-zh.html",
+        "en": "20260901-en.html"
+      },
+      "file": "20260901.html"
     }
   ]
 }
