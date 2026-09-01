@@ -164,6 +164,21 @@
         "en": "weekly-20260830-en.html"
       },
       "file": "weekly-20260830.html"
+    },
+    {
+      "dateISO": "2026-09-01",
+      "kind": "evening",
+      "titleZh": "地缘烽火与鹰派转向：通胀交易回归，九月市场面临双重考验",
+      "tagsZh": "EVENING BRIEF · Sep 1 · OIL SPIKES · FED HIKE ODDS · DEBASEMENT TRADE",
+      "titleEn": "Geopolitical Fire and Hawkish Pivot: Inflation Trade Returns, September Faces Dual Test",
+      "tagsEn": "EVENING BRIEF · Sep 1 · OIL SPIKES · FED HIKE ODDS · DEBASEMENT TRADE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260901-evening.html",
+        "en": "20260901-evening-en.html"
+      },
+      "file": "20260901-evening.html"
     }
   ]
 }
