@@ -194,6 +194,21 @@
         "en": "20260901-en.html"
       },
       "file": "20260901.html"
+    },
+    {
+      "dateISO": "2026-09-02",
+      "kind": "evening",
+      "titleZh": "美伊冲突升级引发滞胀交易，全球市场剧震",
+      "tagsZh": "EVENING BRIEF · SEP 01 · US-IRAN WAR · OIL SPIKE · STAGFLATION",
+      "titleEn": "US-Iran Conflict Escalates Stagflation Trade, Global Markets in Turmoil",
+      "tagsEn": "EVENING BRIEF · SEP 01 · US-IRAN WAR · OIL SPIKE · STAGFLATION",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260902-evening.html",
+        "en": "20260902-evening-en.html"
+      },
+      "file": "20260902-evening.html"
     }
   ]
 }
