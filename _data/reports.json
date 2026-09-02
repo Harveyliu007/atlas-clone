@@ -224,6 +224,21 @@
         "en": "20260902-en.html"
       },
       "file": "20260902.html"
+    },
+    {
+      "dateISO": "2026-09-03",
+      "kind": "evening",
+      "titleZh": "地缘与滞胀博弈：避险资产飙升，美股高位震荡",
+      "tagsZh": "EVENING BRIEF · Sep 2 · IRAN STRIKES · STAGFLATION · AI CAPEX",
+      "titleEn": "Geopolitics & Stagflation: Havens Surge, Equities High Volatility",
+      "tagsEn": "EVENING BRIEF · Sep 2 · IRAN STRIKES · STAGFLATION · AI CAPEX",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20260903-evening.html",
+        "en": "20260903-evening-en.html"
+      },
+      "file": "20260903-evening.html"
     }
   ]
 }
