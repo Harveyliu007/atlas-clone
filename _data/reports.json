@@ -209,6 +209,21 @@
         "en": "20260902-evening-en.html"
       },
       "file": "20260902-evening.html"
+    },
+    {
+      "dateISO": "2026-09-02",
+      "kind": "daily",
+      "titleZh": "地缘冲突与利率风暴：AI资本开支盛宴下的多空博弈",
+      "tagsZh": "MORNING BRIEF · SEP 2 · IRAN STRIKES · OIL SURGE · BOND SELLOFF · AI BOOM",
+      "titleEn": "Geopolitical Storm & Rate Shock: AI Capex Boom in the Crossfire",
+      "tagsEn": "MORNING BRIEF · SEP 2 · IRAN STRIKES · OIL SURGE · BOND SELLOFF · AI BOOM",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260902-zh.html",
+        "en": "20260902-en.html"
+      },
+      "file": "20260902.html"
     }
   ]
 }
