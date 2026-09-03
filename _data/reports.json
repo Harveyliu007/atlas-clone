@@ -239,6 +239,21 @@
         "en": "20260903-evening-en.html"
       },
       "file": "20260903-evening.html"
+    },
+    {
+      "dateISO": "2026-09-03",
+      "kind": "daily",
+      "titleZh": "地缘与再通胀共振，全球资产定价范式切换",
+      "tagsZh": "MORNING BRIEF · SEP 3 · HORMUZ STRAIT · OIL SPIKE · RATE RESET",
+      "titleEn": "Geopolitics & Reflation Reshape Global Asset Pricing",
+      "tagsEn": "MORNING BRIEF · SEP 3 · HORMUZ STRAIT · OIL SPIKE · RATE RESET",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20260903-zh.html",
+        "en": "20260903-en.html"
+      },
+      "file": "20260903.html"
     }
   ]
 }
