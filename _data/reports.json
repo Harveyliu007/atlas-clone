@@ -269,6 +269,21 @@
         "en": "20260904-evening-en.html"
       },
       "file": "20260904-evening.html"
+    },
+    {
+      "dateISO": "2026-09-04",
+      "kind": "daily",
+      "titleZh": "地缘风暴与政策转向：全球资产剧烈重估",
+      "tagsZh": "MORNING BRIEF · SEP 04 · IRAN CONFLICT · RATE HIKE FEARS · AI EARNINGS",
+      "titleEn": "Geopolitical Storm and Policy Shift: Global Assets Repriced Sharply",
+      "tagsEn": "MORNING BRIEF · SEP 04 · IRAN CONFLICT · RATE HIKE FEARS · AI EARNINGS",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260904-zh.html",
+        "en": "20260904-en.html"
+      },
+      "file": "20260904.html"
     }
   ]
 }
