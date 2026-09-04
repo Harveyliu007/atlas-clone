@@ -284,6 +284,21 @@
         "en": "20260904-en.html"
       },
       "file": "20260904.html"
+    },
+    {
+      "dateISO": "2026-09-05",
+      "kind": "evening",
+      "titleZh": "非农爆表、地缘避险升温：AI硬件独秀，黄金破位，警惕政策与战争双风险",
+      "tagsZh": "EVENING BRIEF · Sep 04 · HOT NFP · IRAN TENSIONS · AI INFRA · GOLD BREAKOUT",
+      "titleEn": "Hot NFP, Geopolitical Risk Rise: AI Hardware Shines, Gold Breaks Out, Policy & War Risks Loom",
+      "tagsEn": "EVENING BRIEF · Sep 04 · HOT NFP · IRAN TENSIONS · AI INFRA · GOLD BREAKOUT",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20260905-evening.html",
+        "en": "20260905-evening-en.html"
+      },
+      "file": "20260905-evening.html"
     }
   ]
 }
