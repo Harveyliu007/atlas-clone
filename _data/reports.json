@@ -314,6 +314,21 @@
         "en": "20260905-en.html"
       },
       "file": "20260905.html"
+    },
+    {
+      "dateISO": "2026-09-06",
+      "kind": "weekly",
+      "titleZh": "地缘冲突升级与加息预期共振，全球市场剧震",
+      "tagsZh": "MORNING BRIEF · SEP 5 · US STRIKES IRAN · FED HIKE LOOMS · OIL SURGE",
+      "titleEn": "Geopolitical Shock and Rate Hike Fears Rattle Markets",
+      "tagsEn": "MORNING BRIEF · SEP 5 · US STRIKES IRAN · FED HIKE LOOMS · OIL SURGE",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20260906-zh.html",
+        "en": "weekly-20260906-en.html"
+      },
+      "file": "weekly-20260906.html"
     }
   ]
 }
