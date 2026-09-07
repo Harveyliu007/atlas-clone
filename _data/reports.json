@@ -329,6 +329,21 @@
         "en": "weekly-20260906-en.html"
       },
       "file": "weekly-20260906.html"
+    },
+    {
+      "dateISO": "2026-09-08",
+      "kind": "evening",
+      "titleZh": "地缘风暴与利率冲击：全球资产剧烈重估",
+      "tagsZh": "EVENING BRIEF · Sep 07 · GEOPOLITICAL SHOCK · RATES SURGE · COPPER RECORD · CRYPTO CRASH",
+      "titleEn": "Geopolitical Storm and Rate Shock: Global Assets in Dramatic Repricing",
+      "tagsEn": "EVENING BRIEF · Sep 07 · GEOPOLITICAL SHOCK · RATES SURGE · COPPER RECORD · CRYPTO CRASH",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260908-evening.html",
+        "en": "20260908-evening-en.html"
+      },
+      "file": "20260908-evening.html"
     }
   ]
 }
