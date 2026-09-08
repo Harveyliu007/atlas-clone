@@ -359,6 +359,21 @@
         "en": "20260908-en.html"
       },
       "file": "20260908.html"
+    },
+    {
+      "dateISO": "2026-09-09",
+      "kind": "evening",
+      "titleZh": "地缘冲突推升油价，AI基建与大宗商品分化，警惕市场波动",
+      "tagsZh": "EVENING BRIEF · Sep 8 · OIL SHOCK · AI INFRA · DEBASEMENT",
+      "titleEn": "Oil Surges on Geopolitical Tensions, AI Infrastructure and Commodities Diverge, Caution on Volatility",
+      "tagsEn": "EVENING BRIEF · SEP 8 · OIL SHOCK · AI INFRA · DEBASEMENT TRADE",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260909-evening.html",
+        "en": "20260909-evening-en.html"
+      },
+      "file": "20260909-evening.html"
     }
   ]
 }
