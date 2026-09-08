@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cross-Asset Shock: Equities Jump, Oil Surges, Crypto Crashes</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: {
+  fontSize: { 'xs': ['0.875rem', { lineHeight: '1.4' }], 'sm': ['1rem', { lineHeight: '1.6' }], 'base': ['1.125rem', { lineHeight: '1.7' }], 'lg': ['1.375rem', { lineHeight: '1.5' }], 'xl': ['1.5rem', { lineHeight: '1.4' }], '2xl': ['1.75rem', { lineHeight: '1.3' }], '3xl': ['2rem', { lineHeight: '1.3' }] },
+  maxWidth: { '4xl': '80rem', '5xl': '80rem', '6xl': '80rem', '7xl': '80rem' },
+} } }
+</script>
+<style>html { font-size: 15px !important; }
+body { font-size: 0.9375rem !important; line-height: 1.5 !important; overflow-x: hidden !important; }
+.max-w-7xl, .max-w-6xl, .max-w-5xl, .max-w-4xl { max-width: 100% !important; padding-left: 12px !important; padding-right: 12px !important; }
+.max-w-3xl, .max-w-2xl { max-width: 100% !important; }
+.text-xs { font-size: 0.6875rem !important; line-height: 1.3 !important; }
+.text-sm { font-size: 0.8125rem !important; line-height: 1.4 !important; }
+.text-base { font-size: 0.9375rem !important; line-height: 1.5 !important; }
+.text-lg { font-size: 1.0625rem !important; line-height: 1.4 !important; }
+.text-xl { font-size: 1.25rem !important; line-height: 1.3 !important; }
+.text-2xl { font-size: 1.4375rem !important; line-height: 1.2 !important; }
+.text-3xl { font-size: 1.625rem !important; line-height: 1.2 !important; }
+td { font-size: 0.8125rem !important; padding: 5px 7px !important; line-height: 1.3 !important; }
+th { font-size: 0.6875rem !important; padding: 5px 7px !important; }
+.tag { font-size: 0.6875rem !important; padding: 2px 6px !important; }
+.scenario-badge { font-size: 0.75rem !important; padding: 3px 8px !important; }
+.text-slate-400 { color: #94a3b8 !important; }
+.text-slate-500 { color: #94a3b8 !important; }
+.text-slate-600 { color: #64748b !important; }
+* { word-break: break-word; overflow-wrap: break-word; }
+.card, .card-danger, .card-gold, .card-blue, .card-green, .card-purple, .card-red, .card-yellow { padding: 10px !important; border-radius: 8px !important; }
+.section-divider { margin: 1rem 0 !important; }
+.progress-bar { height: 4px !important; }
+@media (min-width: 768px) {
+  html { font-size: 18px !important; }
+  body { font-size: 1.125rem !important; line-height: 1.7 !important; }
+  .max-w-7xl, .max-w-6xl, .max-w-5xl, .max-w-4xl { max-width: 80rem !important; padding-left: 0 !important; padding-right: 0 !important; }
+  .max-w-3xl { max-width: 72rem !important; }
+  .max-w-2xl { max-width: 64rem !important; }
+  .text-xs { font-size: 0.875rem !important; line-height: 1.4 !important; }
+  .text-sm { font-size: 1rem !important; line-height: 1.6 !important; }
+  .text-base { font-size: 1.125rem !important; line-height: 1.7 !important; }
+  .text-lg { font-size: 1.375rem !important; line-height: 1.5 !important; }
+  .text-xl { font-size: 1.5rem !important; line-height: 1.4 !important; }
+  .text-2xl { font-size: 1.75rem !important; line-height: 1.3 !important; }
+  .text-3xl { font-size: 2rem !important; line-height: 1.3 !important; }
+  td { font-size: 0.875rem !important; padding: 6px 10px !important; }
+  th { font-size: 0.75rem !important; padding: 6px 10px !important; }
+  .tag { font-size: 0.75rem !important; padding: 2px 8px !important; }
+  .scenario-badge { font-size: 0.875rem !important; padding: 4px 10px !important; }
+}
+@media (max-width: 767px) {
+  .overflow-x-auto { overflow-x: auto !important; -webkit-overflow-scrolling: touch; }
+  .overflow-x-auto table { min-width: 420px; }
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background-color: #030712; color: #f9fafb; }
+.hero-gradient { background: radial-gradient(ellipse at top, rgba(16, 185, 129, 0.15) 0%, rgba(3, 7, 18, 1) 70%); }
+.card-gradient { background: linear-gradient(135deg, rgba(30,41,59,0.8), rgba(15,23,42,0.9)); }
+.card-red { background: rgba(239,68,68,0.08); }
+.card-gold { background: rgba(234,179,8,0.08); }
+.card-blue { background: rgba(59,130,246,0.08); }
+.card-green { background: rgba(34,197,94,0.08); }
+.card-purple { background: rgba(168,85,247,0.08); }
+.signal-buy { background: rgba(34,197,94,0.08); border: 1px solid rgba(34,197,94,0.3); }
+.signal-sell { background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.3); }
+.signal-watch { background: rgba(234,179,8,0.08); border: 1px solid rgba(234,179,8,0.3); }
+.signal-hedge { background: rgba(168,85,247,0.08); border: 1px solid rgba(168,85,247,0.3); }
+.progress-bar { border-radius: 2px; overflow: hidden; background: rgba(255,255,255,0.1); }
+.progress-fill { height: 100%; border-radius: 2px; }
+@keyframes pulse-dot { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(0.8); } }
+.live-dot { animation: pulse-dot 2s infinite ease-in-out; }</style>
+</head>
+<body class="min-h-screen" style="background-color:#030712;color:#f9fafb;">
+<nav class="border-b border-white/5 bg-black/50 backdrop-blur-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <span class="text-xl font-black text-white">ATLAS.</span>
+      <span class="hidden md:inline-block px-2 py-0.5 rounded-full bg-white/10 text-sm font-semibold tracking-widest uppercase text-gray-300 border border-white/10">World Live</span>
+    </div>
+    <div class="flex items-center gap-4 text-sm font-medium text-gray-400">
+      <a href="./" class="hover:text-white transition-colors">🏠 Home</a>
+      <a href="./archive.html" class="hover:text-white transition-colors">📚 Archive</a>
+      <div class="hidden sm:flex items-center">
+        <span class="inline-block w-2 h-2 rounded-full bg-green-500 live-dot mr-2"></span>
+        <span>Engine Live</span>
+      </div>
+    </div>
+  </div>
+</nav>
+<main class="max-w-5xl mx-auto px-4 py-8 relative">
+<div class="card-gradient rounded-xl p-4 mb-6 border border-white/10">
+<div class="flex flex-wrap gap-3 text-sm">
+<div class="flex items-center gap-2"><span class="text-slate-400">SPY</span> <span class="text-white font-bold">770.19</span> <span class="text-green-400">18.65</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">QQQ</span> <span class="text-white font-bold">718.96</span> <span class="text-green-400">24.99</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">DIA</span> <span class="text-white font-bold">534.08</span> <span class="text-green-400">16.85</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">^N225</span> <span class="text-white font-bold">66404.02</span> <span class="text-green-400">52.15</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">^HSI</span> <span class="text-white font-bold">25413.12</span> <span class="text-red-400">-0.02</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">000001.SS</span> <span class="text-white font-bold">3932.7</span> <span class="text-green-400">3.15</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">^TNX</span> <span class="text-white font-bold">4.784</span> <span class="text-green-400">14.56</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">GC=F</span> <span class="text-white font-bold">4470.5</span> <span class="text-green-400">23.73</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">CL=F</span> <span class="text-white font-bold">92.35</span> <span class="text-green-400">49.26</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">BTC-USD</span> <span class="text-white font-bold">79181.74</span> <span class="text-red-400">-29.35</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">ETH-USD</span> <span class="text-white font-bold">2489.69</span> <span class="text-red-400">-42.21</span></div>
+<div class="flex items-center gap-2"><span class="text-slate-400">CNBC F&amp;G</span> <span class="text-white font-bold">69</span> <span class="text-green-400">0</span></div>
+</div>
+</div>
+<div class="mb-6">
+<h1 class="text-3xl font-black text-white mb-2">☀️ Cross-Asset Shock: Equities Jump, Oil Surges, Crypto Crashes · September 8, 2026</h1>
+<p class="text-slate-400 text-sm"> · Generated 2026/9/8 00:47:14</p>
+</div>
+<div class="card-red rounded-xl p-5 mb-6 border border-red-500/40">
+<h2 class="text-xl font-bold text-red-400 mb-3">🚨 Red Alerts</h2>
+<div class="space-y-3">
+<div class="flex gap-3"><span class="tag bg-red-500/20 text-red-300 text-xs shrink-0">GEOPOLITICS</span><div><p class="text-white font-semibold">美伊冲突升级，油价飙升</p><p class="text-slate-400 text-sm mt-1">美国与伊朗互相发动袭击，WTI原油单日暴涨49%至92美元，布伦特逼近98美元。伊朗警告将更快更重报复，霍尔木兹海峡供应风险骤升。来源：CNBC、Bing News</p><p class="text-slate-500 text-xs mt-1">CNBC</p></div></div>
+<div class="flex gap-3"><span class="tag bg-purple-500/20 text-purple-300 text-xs shrink-0">CRYPTO CRASH</span><div><p class="text-white font-semibold">加密货币闪崩，以太坊暴跌42%</p><p class="text-slate-400 text-sm mt-1">比特币跌29%至79,182美元，以太坊跌42%至2,490美元。市场传言杠杆清算与监管利空，但尚无明确触发因素。ETF周流入近10亿美元未能支撑价格。来源：CNBC、TheStreet</p><p class="text-slate-500 text-xs mt-1">CNBC</p></div></div>
+<div class="flex gap-3"><span class="tag bg-orange-500/20 text-orange-300 text-xs shrink-0">POLITICAL RISK</span><div><p class="text-white font-semibold">德国极右翼AfD大胜，默茨政府承压</p><p class="text-slate-400 text-sm mt-1">AfD在萨克森-安哈尔特州取得二战后最重大州选举胜利，得票率近40%，总理默茨称“震惊”。欧元区政治风险升温，或影响财政政策与欧盟稳定。来源：FT、CNBC</p><p class="text-slate-500 text-xs mt-1">Financial Times</p></div></div>
+</div>
+</div>
+<div class="section-divider"></div>
+<h2 class="text-2xl font-black text-white mb-4 flex items-center gap-2">📰 Part 1 · Global Events</h2>
+<div class="space-y-3">
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">01</span><div><h3 class="font-bold text-white">美国与伊朗互相袭击，油价飙涨</h3><p class="text-slate-400 text-sm mt-1">美国对伊朗发动袭击，伊朗警告将更快更重报复，并承认战争对经济造成损失。WTI原油大涨49%至92美元，布伦特逼近98美元，市场担忧霍尔木兹海峡供应中断。来源：CNBC、Bing News</p><p class="text-slate-500 text-xs mt-1">CNBC</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">02</span><div><h3 class="font-bold text-white">中国向银行和保险公司注资540亿美元</h3><p class="text-slate-400 text-sm mt-1">中国宣布向国有银行和保险公司注资540亿美元以增强资本缓冲，但相关股票仍下跌。分析师认为此举可能促使金融机构在资本市场发挥更大作用。来源：CNBC</p><p class="text-slate-500 text-xs mt-1">CNBC</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">03</span><div><h3 class="font-bold text-white">特朗普呼吁抵制加拿大庞巴迪飞机</h3><p class="text-slate-400 text-sm mt-1">特朗普在社交媒体上呼吁美国抵制加拿大庞巴迪飞机，除非其在美建厂。此举发生在加拿大对200亿美元美国商品征收报复性关税生效前夕。来源：FT、CNBC</p><p class="text-slate-500 text-xs mt-1">Financial Times</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">04</span><div><h3 class="font-bold text-white">德国极右翼AfD在州选举中取得历史性胜利</h3><p class="text-slate-400 text-sm mt-1">AfD在萨克森-安哈尔特州选举中取得二战后最重大胜利，得票率接近40%，总理默茨压力剧增。克里姆林宫和特朗普政府对此表示欢迎。来源：FT、CNBC</p><p class="text-slate-500 text-xs mt-1">Financial Times</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">05</span><div><h3 class="font-bold text-white">英国拟宣布对以色列定居点实施贸易禁令</h3><p class="text-slate-400 text-sm mt-1">英国预计将宣布禁止与约旦河西岸以色列定居点进行贸易，此举可能引发华盛顿的强烈反应。来源：FT</p><p class="text-slate-500 text-xs mt-1">Financial Times</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">06</span><div><h3 class="font-bold text-white">日本外汇储备创纪录下降800亿美元</h3><p class="text-slate-400 text-sm mt-1">日本财务省数据显示，8月外汇储备降至1.207万亿美元，较7月减少800亿美元，为历史最大降幅，主要由于日元干预。来源：CNBC</p><p class="text-slate-500 text-xs mt-1">CNBC</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">07</span><div><h3 class="font-bold text-white">美国能源部长称伊朗核协议可能永远不会达成</h3><p class="text-slate-400 text-sm mt-1">美国能源部长赖特表示，伊朗核协议可能永远不会达成。此前美伊冲突升级，伊朗警告将进行更严厉报复。来源：CNBC</p><p class="text-slate-500 text-xs mt-1">CNBC</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">08</span><div><h3 class="font-bold text-white">NVIDIA建立990亿美元AI投资组合</h3><p class="text-slate-400 text-sm mt-1">NVIDIA的AI股权投资达到990亿美元，高于一年前的70亿美元。该公司不再仅仅销售芯片，而是大举投资AI生态系统。来源：Bing News</p><p class="text-slate-500 text-xs mt-1">Bing News</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">09</span><div><h3 class="font-bold text-white">俄罗斯Rosneft首次从Vostok Oil项目出口原油</h3><p class="text-slate-400 text-sm mt-1">俄罗斯Rosneft从耗资1570亿美元的Vostok Oil项目发运首批原油，该项目强化了俄罗斯向亚洲和北极的能源转向，北方海航道重要性上升。来源：Bing News</p><p class="text-slate-500 text-xs mt-1">Bing News</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><div class="flex items-start gap-3"><span class="text-2xl font-black text-green-500/40 shrink-0">10</span><div><h3 class="font-bold text-white">亚马逊货机在迈阿密机场坠毁，至少5人死亡</h3><p class="text-slate-400 text-sm mt-1">一架亚马逊货运飞机在迈阿密国际机场坠毁，撞上两辆车并冲出跑道1300英尺，造成至少5人死亡，5人受伤。NTSB正在调查原因。来源：CNBC、NYT</p><p class="text-slate-500 text-xs mt-1">CNBC</p></div></div></div>
+</div>
+<div class="section-divider"></div>
+<h2 class="text-2xl font-black text-white mb-4 flex items-center gap-2">🌡️ Part 2 · Social Sentiment</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+<div class="card-gradient rounded-xl p-4 border border-white/10"><h3 class="font-bold text-white mb-2">StockTwits</h3><div class="text-3xl font-black mb-1">35<span class="text-lg text-slate-400">/100</span></div><div class="progress-bar mb-2"><div class="progress-fill" style="width:35%;background:#ef4444;"></div></div><p class="text-slate-400 text-xs">Heat: 恐惧</p><ul class="space-y-1 mt-3 text-xs text-slate-400"><li>• 加密货币暴跌引发恐慌性抛售</li><li>• 油价飙升引发通胀担忧</li><li>• 科技股反弹未能缓解焦虑</li></ul></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><h3 class="font-bold text-white mb-2">Twitter/X</h3><div class="text-3xl font-black mb-1">45<span class="text-lg text-slate-400">/100</span></div><div class="progress-bar mb-2"><div class="progress-fill" style="width:45%;background:#eab308;"></div></div><p class="text-slate-400 text-xs">Heat: 中性偏空</p><ul class="space-y-1 mt-3 text-xs text-slate-400"><li>• 地缘政治风险主导讨论</li><li>• 美伊冲突成焦点</li><li>• 德国政局引发欧洲担忧</li></ul></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><h3 class="font-bold text-white mb-2">Reddit</h3><div class="text-3xl font-black mb-1">50<span class="text-lg text-slate-400">/100</span></div><div class="progress-bar mb-2"><div class="progress-fill" style="width:50%;background:#eab308;"></div></div><p class="text-slate-400 text-xs">Heat: 中性</p><ul class="space-y-1 mt-3 text-xs text-slate-400"><li>• 散户对美股跳涨存疑</li><li>• 加密货币暴跌引发抄底讨论</li><li>• 通胀数据前保持谨慎</li></ul></div>
+</div>
+<div class="card-gradient rounded-xl p-4 border border-white/10 mb-4"><h3 class="font-bold text-white mb-2">📊 Retail vs Institutional</h3><div class="grid grid-cols-2 gap-4"><div><p class="text-green-400 font-semibold text-sm mb-1">Retail</p><p class="text-slate-400 text-xs">48</p></div><div><p class="text-orange-400 font-semibold text-sm mb-1">Institutional</p><p class="text-slate-400 text-xs">42</p></div></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10"><h3 class="font-bold text-white mb-2">🔑 Key Terms</h3><div class="flex flex-wrap gap-2"><span class="tag bg-yellow-500/20 text-yellow-300">美伊冲突</span><span class="tag bg-yellow-500/20 text-yellow-300">油价</span><span class="tag bg-yellow-500/20 text-yellow-300">比特币崩盘</span><span class="tag bg-yellow-500/20 text-yellow-300">德国AfD</span><span class="tag bg-yellow-500/20 text-yellow-300">通胀数据</span><span class="tag bg-yellow-500/20 text-yellow-300">中国注资</span></div></div>
+<div class="section-divider"></div>
+<h2 class="text-2xl font-black text-white mb-4 flex items-center gap-2">📡 Part 3 · Master Radar · Consensus Scan</h2>
+<p class="text-slate-400 text-sm mb-4">Framework simulation across 50 master investors with live market data. Intelligence only — no trade advice.</p>
+<div class="overflow-x-auto mb-6"><table class="w-full text-sm border-collapse"><thead><tr class="text-slate-400 border-b border-white/10"><th class="text-left py-2 px-2">Asset</th><th class="text-right py-2 px-2">Price</th><th class="text-left py-2 px-2">🐂 Bulls</th><th class="text-left py-2 px-2">🐻 Bears</th><th class="text-center py-2 px-2">Consensus</th></tr></thead><tbody>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">标普500</td><td class="text-right text-white font-bold">7718.6 </td><td class="text-green-400">Stanley Druckenmiller, David Tepper</td><td class="text-red-400">Jeremy Grantham, John Paulson</td><td class="text-center">2 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">纳指100</td><td class="text-right text-white font-bold">26506.99 </td><td class="text-green-400">Cathie Wood, Chase Coleman</td><td class="text-red-400">Michael Burry, David Einhorn</td><td class="text-center">2 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">道指</td><td class="text-right text-white font-bold">53414.25 </td><td class="text-green-400">Warren Buffett</td><td class="text-red-400">Nassim Taleb</td><td class="text-center">1 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">日经</td><td class="text-right text-white font-bold">66404.02 </td><td class="text-green-400">Bill Ackman, Kyle Bass</td><td class="text-red-400">Jim Rogers</td><td class="text-center">2 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">恒生</td><td class="text-right text-white font-bold">25413.12 </td><td class="text-green-400">Ray Dalio</td><td class="text-red-400">Kyle Bass</td><td class="text-center">1 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">上证</td><td class="text-right text-white font-bold">3932.7 </td><td class="text-green-400">Ray Dalio, Michael Burry</td><td class="text-red-400">Jim Rogers</td><td class="text-center">2 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">10Y美债</td><td class="text-right text-white font-bold">4.784 </td><td class="text-green-400">Jeffrey Gundlach</td><td class="text-red-400">Bill Gross</td><td class="text-center">1 <span class="text-xs text-slate-400">看跌</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">美元指数</td><td class="text-right text-white font-bold">99.176 </td><td class="text-green-400">Paul Singer</td><td class="text-red-400">Jeffrey Gundlach</td><td class="text-center">1 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">欧元</td><td class="text-right text-white font-bold">1.1629 </td><td class="text-green-400">Mohamed El-Erian</td><td class="text-red-400">Kyle Bass</td><td class="text-center">1 <span class="text-xs text-slate-400">看跌</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">黄金</td><td class="text-right text-white font-bold">4470.5 </td><td class="text-green-400">Ray Dalio, Jeffrey Gundlach, Paul Singer</td><td class="text-red-400">—</td><td class="text-center">3 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">WTI</td><td class="text-right text-white font-bold">92.35 </td><td class="text-green-400">Pierre Andurand</td><td class="text-red-400">Bill Ackman</td><td class="text-center">1 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">铜</td><td class="text-right text-white font-bold">6.7545 </td><td class="text-green-400">Stanley Druckenmiller, David Tepper</td><td class="text-red-400">—</td><td class="text-center">2 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">BTC</td><td class="text-right text-white font-bold">79181.74 </td><td class="text-green-400">Arthur Hayes, Raoul Pal</td><td class="text-red-400">Nassim Taleb, Peter Schiff</td><td class="text-center">2 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">ETH</td><td class="text-right text-white font-bold">2489.69 </td><td class="text-green-400">Chris Burniske</td><td class="text-red-400">Nassim Taleb</td><td class="text-center">1 <span class="text-xs text-slate-400">看涨</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">VIX</td><td class="text-right text-white font-bold">15.3 </td><td class="text-green-400">Nassim Taleb</td><td class="text-red-400">—</td><td class="text-center">1 <span class="text-xs text-slate-400">看涨</span></td></tr>
+</tbody></table></div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📈 标普500</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Stanley Druckenmiller: </span>AI资本开支周期与盈利增长支撑，回调即买入机会。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Jeremy Grantham: </span>估值泡沫终将破裂，当前反弹是逃命波。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📈 纳指100</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Cathie Wood: </span>AI创新加速，颠覆性增长未定价。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Michael Burry: </span>科技股估值过高，做空机会浮现。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📈 道指</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Warren Buffett: </span>持有优质消费与工业股，长期复利。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📈 日经</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Bill Ackman: </span>日本企业治理改革与通胀回归利好股市。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Jim Rogers: </span>日元干预不可持续，日本资产风险高。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📉 恒生</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Ray Dalio: </span>中国资产处于底部区域，长期配置价值。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📈 上证</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Ray Dalio: </span>中国政策托底，估值低，风险回报佳。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Jim Rogers: </span>中国债务问题与通缩压力未解。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📉 10Y美债</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Jeffrey Gundlach: </span>通胀粘性，长端利率将走高。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Bill Gross: </span>经济放缓将压低收益率，债市机会。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📈 美元指数</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Paul Singer: </span>利差与避险需求支撑美元。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Jeffrey Gundlach: </span>财政赤字将削弱美元。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📉 欧元</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Mohamed El-Erian: </span>欧洲经济疲软，欧元承压。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Kyle Bass: </span>政治分裂与能源成本拖累欧元。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">🛡️ 黄金</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Ray Dalio: </span>去美元化与央行购金，黄金是终极避险。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Jeffrey Gundlach: </span>实际利率下行利好黄金。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">🛢️ WTI</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Pierre Andurand: </span>供应风险溢价上升，油价将突破100。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Bill Ackman: </span>高油价将抑制需求，长期看空。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">🏭 铜</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Stanley Druckenmiller: </span>电气化与AI数据中心需求，铜超级周期。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">₿ BTC</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Arthur Hayes: </span>流动性宽松与法币贬值，比特币长期看涨。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">Nassim Taleb: </span>比特币是脆弱资产，黑天鹅随时出现。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">⬡ ETH</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Chris Burniske: </span>以太坊仍是智能合约之王，长期配置。</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-blue-500/30"><h3 class="font-bold text-blue-400 mb-2">📊 VIX</h3><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-blue-400 font-semibold">Nassim Taleb: </span>波动性被低估，尾部风险对冲有价值。</p></div></div>
+</div>
+<div class="section-divider"></div>
+<h2 class="text-2xl font-black text-white mb-4 flex items-center gap-2">⚡ Part 4 · Master Signal Desk</h2>
+<p class="text-slate-400 text-sm mb-4">Top-consensus signals from the matrix. Simulation only — not investment advice.</p>
+<div class="signal-buy rounded-xl p-5 mb-4"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-2"><span class="tag bg-green-500/30 text-green-300 text-sm font-bold">LONG</span><h3 class="font-bold text-white text-lg">🥇 黄金</h3></div><span class="text-2xl font-black text-green-400">85<span class="text-sm text-slate-400">/100</span></span></div><div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-sm"><div><span class="text-slate-400 text-xs">Entry</span><p class="text-white font-bold">4400</p></div><div><span class="text-slate-400 text-xs">Target T1</span><p class="text-green-400 font-bold">4600</p></div><div><span class="text-slate-400 text-xs">Target T2</span><p class="text-green-400 font-bold">5000</p></div><div><span class="text-slate-400 text-xs">Stop</span><p class="text-red-400 font-bold">4200</p></div></div><div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs mb-3"><div><span class="text-slate-400">Horizon</span> <span class="text-white">3-6个月</span></div><div><span class="text-slate-400">Attribution</span> <span class="text-white">Ray Dalio,Jeffrey Gundlach,Paul Singer</span></div><div><span class="text-slate-400">Consensus</span> <span class="text-green-400">高</span></div></div><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-green-400 font-semibold">🧠 Logic: </span>地缘政治风险加剧，实际利率预期走低，央行购金趋势持续，黄金作为避险资产需求强劲。</p><p class="text-slate-300"><span class="text-orange-400 font-semibold">⚡ Debate: </span>美联储若意外转鹰，美元走强可能压制金价。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">🎯 Trigger: </span>CPI数据低于预期或中东冲突进一步升级</p></div></div>
+<div class="signal-buy rounded-xl p-5 mb-4"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-2"><span class="tag bg-green-500/30 text-green-300 text-sm font-bold">LONG</span><h3 class="font-bold text-white text-lg">🛢️ WTI原油</h3></div><span class="text-2xl font-black text-green-400">75<span class="text-sm text-slate-400">/100</span></span></div><div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-sm"><div><span class="text-slate-400 text-xs">Entry</span><p class="text-white font-bold">90</p></div><div><span class="text-slate-400 text-xs">Target T1</span><p class="text-green-400 font-bold">100</p></div><div><span class="text-slate-400 text-xs">Target T2</span><p class="text-green-400 font-bold">110</p></div><div><span class="text-slate-400 text-xs">Stop</span><p class="text-red-400 font-bold">82</p></div></div><div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs mb-3"><div><span class="text-slate-400">Horizon</span> <span class="text-white">1-3个月</span></div><div><span class="text-slate-400">Attribution</span> <span class="text-white">Pierre Andurand</span></div><div><span class="text-slate-400">Consensus</span> <span class="text-green-400">中</span></div></div><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-green-400 font-semibold">🧠 Logic: </span>美伊冲突升级，供应中断风险溢价上升，库存下降，需求旺季。</p><p class="text-slate-300"><span class="text-orange-400 font-semibold">⚡ Debate: </span>若冲突缓和，油价可能快速回落。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">🎯 Trigger: </span>伊朗封锁霍尔木兹海峡或美国进一步制裁</p></div></div>
+<div class="signal-sell rounded-xl p-5 mb-4"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-2"><span class="tag bg-red-500/30 text-red-300 text-sm font-bold">SHORT</span><h3 class="font-bold text-white text-lg">⬡ ETH</h3></div><span class="text-2xl font-black text-red-400">70<span class="text-sm text-slate-400">/100</span></span></div><div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-sm"><div><span class="text-slate-400 text-xs">Entry</span><p class="text-white font-bold">2600</p></div><div><span class="text-slate-400 text-xs">Target T1</span><p class="text-green-400 font-bold">2200</p></div><div><span class="text-slate-400 text-xs">Target T2</span><p class="text-green-400 font-bold">1800</p></div><div><span class="text-slate-400 text-xs">Stop</span><p class="text-red-400 font-bold">2900</p></div></div><div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs mb-3"><div><span class="text-slate-400">Horizon</span> <span class="text-white">1-2个月</span></div><div><span class="text-slate-400">Attribution</span> <span class="text-white">Nassim Taleb</span></div><div><span class="text-slate-400">Consensus</span> <span class="text-green-400">低</span></div></div><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-green-400 font-semibold">🧠 Logic: </span>以太坊暴跌后技术面破位，市场情绪脆弱，杠杆清算风险未消。</p><p class="text-slate-300"><span class="text-orange-400 font-semibold">⚡ Debate: </span>若比特币企稳反弹，ETH可能跟随回升。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">🎯 Trigger: </span>跌破2400美元或出现利空监管消息</p></div></div>
+<div class="signal-hedge rounded-xl p-5 mb-4"><div class="flex items-center justify-between mb-3"><div class="flex items-center gap-2"><span class="tag bg-purple-500/30 text-purple-300 text-sm font-bold">HEDGE</span><h3 class="font-bold text-white text-lg">📊 VIX</h3></div><span class="text-2xl font-black text-green-400">65<span class="text-sm text-slate-400">/100</span></span></div><div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-sm"><div><span class="text-slate-400 text-xs">Entry</span><p class="text-white font-bold">15</p></div><div><span class="text-slate-400 text-xs">Target T1</span><p class="text-green-400 font-bold">20</p></div><div><span class="text-slate-400 text-xs">Target T2</span><p class="text-green-400 font-bold">25</p></div><div><span class="text-slate-400 text-xs">Stop</span><p class="text-red-400 font-bold">13</p></div></div><div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs mb-3"><div><span class="text-slate-400">Horizon</span> <span class="text-white">1-2个月</span></div><div><span class="text-slate-400">Attribution</span> <span class="text-white">Nassim Taleb</span></div><div><span class="text-slate-400">Consensus</span> <span class="text-green-400">中</span></div></div><div class="space-y-2 text-sm"><p class="text-slate-300"><span class="text-green-400 font-semibold">🧠 Logic: </span>地缘政治与通胀数据不确定性高，市场波动率被低估，适合买入对冲。</p><p class="text-slate-300"><span class="text-orange-400 font-semibold">⚡ Debate: </span>若数据平稳，VIX可能继续走低。</p><p class="text-slate-300"><span class="text-blue-400 font-semibold">🎯 Trigger: </span>CPI超预期或中东冲突扩大</p></div></div>
+<div class="card-gradient rounded-xl p-4 border border-white/10 mb-6"><h3 class="font-bold text-white mb-2">💼 Position Summary</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm"><div class="flex items-center gap-2"><span class="tag bg-green-500/20 text-green-300">核心多仓</span><span class="text-white font-bold">50</span><span class="text-slate-400 text-xs">股票与黄金，聚焦盈利增长与避险</span></div><div class="flex items-center gap-2"><span class="tag bg-purple-500/20 text-purple-300">尾部对冲</span><span class="text-white font-bold">20</span><span class="text-slate-400 text-xs">VIX看涨期权与原油看涨期权</span></div><div class="flex items-center gap-2"><span class="tag bg-blue-500/20 text-blue-300">现金</span><span class="text-white font-bold">30</span><span class="text-slate-400 text-xs">等待通胀数据与地缘局势明朗</span></div></div></div>
+<div class="section-divider"></div>
+<h2 class="text-2xl font-black text-white mb-4 flex items-center gap-2">🔮 Part 5 · Scenarios & Calendar</h2>
+<div class="card-gradient rounded-xl p-4 border border-white/10 mb-6"><h3 class="font-bold text-white mb-3">📅 Key Events This Week</h3><table class="w-full text-sm"><thead><tr class="text-slate-400 border-b border-white/10"><th class="text-left py-2 px-2">Date</th><th class="text-left py-2 px-2">Event</th><th class="text-left py-2 px-2">Time</th><th class="text-left py-2 px-2">Impact</th></tr></thead><tbody><tr class="border-b border-white/5"><td class="py-2 px-2 text-white">2026-09-08</td><td class="text-slate-300">美国劳动节假期，市场休市</td><td class="text-slate-400">全天</td><td><span class="tag bg-yellow-500/20 text-yellow-300">中</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">2026-09-10</td><td class="text-slate-300">美国PPI数据发布</td><td class="text-slate-400">20:30</td><td><span class="tag bg-orange-500/20 text-orange-300">高</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">2026-09-11</td><td class="text-slate-300">美国CPI数据发布</td><td class="text-slate-400">20:30</td><td><span class="tag bg-red-500/20 text-red-300">极高</span></td></tr>
+<tr class="border-b border-white/5"><td class="py-2 px-2 text-white">2026-09-11</td><td class="text-slate-300">欧洲央行利率决议</td><td class="text-slate-400">19:45</td><td><span class="tag bg-orange-500/20 text-orange-300">高</span></td></tr>
+</tbody></table></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6"><div class="card-green rounded-xl p-4 border border-green-500/30"><div class="flex items-center justify-between mb-2"><h3 class="font-bold text-green-400">🐂 Bull</h3><span class="scenario-badge bg-green-500/20 text-green-300">Prob 30</span></div><p class="text-slate-300 text-sm">CPI低于预期，美联储降息预期升温，风险资产延续反弹，美股创新高，黄金突破4500。</p></div><div class="card-blue rounded-xl p-4 border border-blue-500/30"><div class="flex items-center justify-between mb-2"><h3 class="font-bold text-blue-400">📊 Base</h3><span class="scenario-badge bg-blue-500/20 text-blue-300">Prob 50</span></div><p class="text-slate-300 text-sm">通胀数据符合预期，地缘政治持续紧张但未失控，市场震荡，结构性机会为主。</p></div><div class="card-red rounded-xl p-4 border border-red-500/30"><div class="flex items-center justify-between mb-2"><h3 class="font-bold text-red-400">🐻 Bear</h3><span class="scenario-badge bg-red-500/20 text-red-300">Prob 20</span></div><p class="text-slate-300 text-sm">CPI超预期，美联储转鹰，油价飙升引发滞胀担忧，股市回调，避险资产大涨。</p></div></div>
+<div class="card-gradient rounded-xl p-5 border border-white/10 mb-6"><h3 class="font-bold text-white text-lg mb-3">⚖️ Core Judgment</h3><div class="space-y-2 text-sm text-slate-300"><p>市场正处于地缘政治与通胀数据双重主导的震荡格局。美伊冲突推动油价飙升，加剧通胀担忧，但美股却因AI科技股带动大幅上涨，显示市场情绪复杂。中国注资银行短期提振信心，但长期结构性问题犹存。</p><p>加密货币市场出现闪崩，比特币和以太坊暴跌，可能引发去杠杆连锁反应。然而，比特币ETF资金持续流入，显示机构长期配置需求仍在。需关注监管动态与市场情绪变化。</p><p>本周美国CPI与PPI数据将是决定短期方向的关键。若通胀超预期，美联储可能再度加息，风险资产承压；若数据温和，市场可能继续反弹。同时，地缘政治风险不可忽视，需保持对冲仓位。</p><p>德国AfD的胜利加剧欧洲政治不确定性，欧元承压。日本外汇储备创纪录下降显示干预力度，日元波动性上升。总体策略：保持核心多头，增加尾部对冲，灵活应对数据与地缘事件。</p><p><span class="text-green-400 font-semibold">Core Long: </span>黄金与AI科技龙头</p><p><span class="text-red-400 font-semibold">Tactical Short: </span>加密货币（ETH）</p><p><span class="text-orange-400 font-semibold">Hedge: </span>VIX看涨期权与原油看涨期权</p><p><span class="text-blue-400 font-semibold">Cash: </span>30%</p></div></div>
+<div class="text-center text-slate-500 text-xs py-4 border-t border-white/5">
+<p>⚠️ This report is auto-generated by an AI engine from public market data and news feeds. Master perspectives are framework simulations, not the masters' actual views. Intelligence only — not investment advice.</p>
+<p class="mt-2">Atlas World Live | Intelligence &amp; Signals · September 8, 2026 · <a href="./index.html" class="text-green-400 hover:text-green-300">Home</a> · <a href="./archive.html" class="text-green-400 hover:text-green-300">Archive</a></p>
+</div>
+</main>
+</body>
+</html>
