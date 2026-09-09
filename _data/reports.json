@@ -374,6 +374,21 @@
         "en": "20260909-evening-en.html"
       },
       "file": "20260909-evening.html"
+    },
+    {
+      "dateISO": "2026-09-09",
+      "kind": "daily",
+      "titleZh": "油价逼近百元与美伊冲突升级，全球市场震荡分化",
+      "tagsZh": "OIL AT $100 · US-IRAN CONFLICT · JAPAN YEN INTERVENTION · AI INFRASTRUCTURE BOOM",
+      "titleEn": "Oil Nears $100 as US-Iran Tensions Escalate, Global Markets Mixed",
+      "tagsEn": "OIL AT $100 · US-IRAN CONFLICT · JAPAN YEN INTERVENTION · AI INFRASTRUCTURE BOOM",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260909-zh.html",
+        "en": "20260909-en.html"
+      },
+      "file": "20260909.html"
     }
   ]
 }
