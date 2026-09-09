@@ -389,6 +389,21 @@
         "en": "20260909-en.html"
       },
       "file": "20260909.html"
+    },
+    {
+      "dateISO": "2026-09-10",
+      "kind": "evening",
+      "titleZh": "油价破百美债收益率创两年新高 加密暴跌避险资产分化",
+      "tagsZh": "EVENING BRIEF · Sep 09 · OIL >$100 · 10Y YIELD 3-YR HIGH · BTC -30% · MIDTERM WAR",
+      "titleEn": "Oil Above $100, Yields at 3-Year High, Crypto Crashes",
+      "tagsEn": "EVENING BRIEF · Sep 09 · OIL >$100 · 10Y YIELD 3-YR HIGH · BTC -30% · MIDTERM WAR",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20260910-evening.html",
+        "en": "20260910-evening-en.html"
+      },
+      "file": "20260910-evening.html"
     }
   ]
 }
