@@ -404,6 +404,21 @@
         "en": "20260910-evening-en.html"
       },
       "file": "20260910-evening.html"
+    },
+    {
+      "dateISO": "2026-09-10",
+      "kind": "daily",
+      "titleZh": "油价破百撞上美债三年新高：滞胀交易全面接管",
+      "tagsZh": "MORNING BRIEF · SEP 10 · OIL ABOVE $100 · 10Y AT 4.84% · DEBASEMENT TRADE",
+      "titleEn": "Oil Above $100 Meets a Three-Year High in 10Y Yields: The Stagflation Trade Takes Over",
+      "tagsEn": "MORNING BRIEF · SEP 10 · OIL ABOVE $100 · 10Y AT 4.84% · DEBASEMENT TRADE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20260910-zh.html",
+        "en": "20260910-en.html"
+      },
+      "file": "20260910.html"
     }
   ]
 }
