@@ -419,6 +419,21 @@
         "en": "20260910-en.html"
       },
       "file": "20260910.html"
+    },
+    {
+      "dateISO": "2026-09-11",
+      "kind": "evening",
+      "titleZh": "通胀重燃 · 油破百 · 债市风暴 · 加密崩盘",
+      "tagsZh": "EVENING BRIEF · Sep 10 · OIL $100+ · 10Y 4.94% · BTC -32% · INFLATION SHOCK",
+      "titleEn": "Inflation Re-Ignites: Oil Breaches $100, Bond Rout Deepens, Crypto Crashes",
+      "tagsEn": "EVENING BRIEF · Sep 10 · OIL $100+ · 10Y 4.94% · BTC -32% · INFLATION SHOCK",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260911-evening.html",
+        "en": "20260911-evening-en.html"
+      },
+      "file": "20260911-evening.html"
     }
   ]
 }
