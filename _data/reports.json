@@ -434,6 +434,21 @@
         "en": "20260911-evening-en.html"
       },
       "file": "20260911-evening.html"
+    },
+    {
+      "dateISO": "2026-09-11",
+      "kind": "daily",
+      "titleZh": "美债破5%·油价破百·加密闪崩：通胀交易全面接管",
+      "tagsZh": "MORNING BRIEF · Sep 11 · 10Y ABOVE 4.9% · OIL $103 · CRYPTO LIQUIDATION",
+      "titleEn": "Bond Yields Break, Oil Breaks $100, Crypto Breaks Down: The Inflation Trade Takes Over",
+      "tagsEn": "MORNING BRIEF · Sep 11 · 10Y ABOVE 4.9% · OIL $103 · CRYPTO LIQUIDATION",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260911-zh.html",
+        "en": "20260911-en.html"
+      },
+      "file": "20260911.html"
     }
   ]
 }
