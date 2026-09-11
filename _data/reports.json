@@ -449,6 +449,21 @@
         "en": "20260911-en.html"
       },
       "file": "20260911.html"
+    },
+    {
+      "dateISO": "2026-09-12",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考 · 通胀重燃与油路断供：美联储加息前夜的资产重定价",
+      "tagsZh": "EVENING BRIEF · Sep 11 · FED HIKE ODDS · OIL CHOKEPOINT · DEBASEMENT HEDGE",
+      "titleEn": "Atlas Daily Reference · Inflation Re-Ignites and Oil Chokepoint Shuts: Asset Repricing on the Eve of a Fed Hike",
+      "tagsEn": "EVENING BRIEF · Sep 11 · FED HIKE ODDS · OIL CHOKEPOINT · DEBASEMENT HEDGE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20260912-evening.html",
+        "en": "20260912-evening-en.html"
+      },
+      "file": "20260912-evening.html"
     }
   ]
 }
