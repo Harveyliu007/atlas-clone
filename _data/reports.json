@@ -479,6 +479,21 @@
         "en": "20260912-en.html"
       },
       "file": "20260912.html"
+    },
+    {
+      "dateISO": "2026-09-13",
+      "kind": "weekly",
+      "titleZh": "通胀交易全面接管：油价破百、30年美债5.3%、金砖AI对冲美元秩序",
+      "tagsZh": "WEEKLY BRIEF · SEP 12 · OIL $100 · 30Y 5.3% · BRICS AI · CRYPTO TAIL",
+      "titleEn": "Inflation Trade Takes Over: Oil Through $100, 30Y at 5.3%, BRICS Bets on AI",
+      "tagsEn": "WEEKLY BRIEF · SEP 12 · OIL $100 · 30Y 5.3% · BRICS AI · CRYPTO TAIL",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20260913-zh.html",
+        "en": "weekly-20260913-en.html"
+      },
+      "file": "weekly-20260913.html"
     }
   ]
 }
