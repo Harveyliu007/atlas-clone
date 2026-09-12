@@ -464,6 +464,21 @@
         "en": "20260912-evening-en.html"
       },
       "file": "20260912-evening.html"
+    },
+    {
+      "dateISO": "2026-09-12",
+      "kind": "daily",
+      "titleZh": "Atlas每日参考：CPI逼出加息定价，油价与地缘双风暴",
+      "tagsZh": "MORNING BRIEF · SEP 12 · FED HIKE ODDS 90% · OIL SHOCK · CRYPTO FLASH CRASH",
+      "titleEn": "Atlas Daily: CPI Forces Hike Pricing, Oil and Geopolitics Twin Storm",
+      "tagsEn": "MORNING BRIEF · SEP 12 · FED HIKE ODDS 90% · OIL SHOCK · CRYPTO FLASH CRASH",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20260912-zh.html",
+        "en": "20260912-en.html"
+      },
+      "file": "20260912.html"
     }
   ]
 }
