@@ -494,6 +494,21 @@
         "en": "weekly-20260913-en.html"
       },
       "file": "weekly-20260913.html"
+    },
+    {
+      "dateISO": "2026-09-15",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考：美债破5%、油价暴走，AI叙事遭遇减速带",
+      "tagsZh": "EVENING BRIEF · Sep 14 · 10Y >5% · OIL SPIKE · AI SLOWDOWN DEBATE",
+      "titleEn": "Atlas Daily Reference: 10Y Breaks 5%, Oil Goes Vertical, AI Narrative Hits a Speed Bump",
+      "tagsEn": "EVENING BRIEF · Sep 14 · 10Y >5% · OIL SPIKE · AI SLOWDOWN DEBATE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260915-evening.html",
+        "en": "20260915-evening-en.html"
+      },
+      "file": "20260915-evening.html"
     }
   ]
 }
