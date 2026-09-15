@@ -524,6 +524,21 @@
         "en": "20260915-en.html"
       },
       "file": "20260915.html"
+    },
+    {
+      "dateISO": "2026-09-16",
+      "kind": "evening",
+      "titleZh": "美债破5%油价破百，加密监管折戟，市场静待美联储",
+      "tagsZh": "EVENING BRIEF · Sep 15 · US 10Y 5% · OIL $105 · CLARITY ACT FAILS · CRYPTO SELLOFF",
+      "titleEn": "10Y Breaches 5%, Oil Tops $105, Crypto Bill Fails as Market Awaits Fed",
+      "tagsEn": "EVENING BRIEF · Sep 15 · US 10Y 5% · OIL $105 · CLARITY ACT FAILS · CRYPTO SELLOFF",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260916-evening.html",
+        "en": "20260916-evening-en.html"
+      },
+      "file": "20260916-evening.html"
     }
   ]
 }
