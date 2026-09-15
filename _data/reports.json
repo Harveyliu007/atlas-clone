@@ -509,6 +509,21 @@
         "en": "20260915-evening-en.html"
       },
       "file": "20260915-evening.html"
+    },
+    {
+      "dateISO": "2026-09-15",
+      "kind": "daily",
+      "titleZh": "Atlas每日参考：10Y美债破5%与AI放缓叙事共振，原油单日暴涨62%",
+      "tagsZh": "MORNING BRIEF · SEP 15 · 10Y ABOVE 5% · OIL SPIKE +62% · AI SLOWDOWN DEBATE",
+      "titleEn": "Atlas Daily: 10Y Breaches 5% as AI-Slowdown Narrative Meets a 62% Oil Shock",
+      "tagsEn": "MORNING BRIEF · SEP 15 · 10Y ABOVE 5% · OIL SPIKE · AI SLOWDOWN DEBATE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260915-zh.html",
+        "en": "20260915-en.html"
+      },
+      "file": "20260915.html"
     }
   ]
 }
