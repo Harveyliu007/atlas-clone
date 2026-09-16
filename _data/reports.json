@@ -554,6 +554,21 @@
         "en": "20260916-en.html"
       },
       "file": "20260916.html"
+    },
+    {
+      "dateISO": "2026-09-17",
+      "kind": "evening",
+      "titleZh": "沃什范式转向：加息落地、10Y破5%、加密闪崩",
+      "tagsZh": "EVENING BRIEF · Sep 16 · FED HIKE 25BP · 10Y AT 5% · CRYPTO FLASH CRASH · OIL SPIKE",
+      "titleEn": "Warsh Regime Shift: Fed Hikes, 10Y Breaks 5%, Crypto Flash Crash",
+      "tagsEn": "EVENING BRIEF · Sep 16 · FED HIKE 25BP · 10Y AT 5% · CRYPTO FLASH CRASH · OIL SPIKE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20260917-evening.html",
+        "en": "20260917-evening-en.html"
+      },
+      "file": "20260917-evening.html"
     }
   ]
 }
