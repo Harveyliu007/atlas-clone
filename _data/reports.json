@@ -539,6 +539,21 @@
         "en": "20260916-evening-en.html"
       },
       "file": "20260916-evening.html"
+    },
+    {
+      "dateISO": "2026-09-16",
+      "kind": "daily",
+      "titleZh": "油价破百·美债破5%：加息前夜的极端仓位",
+      "tagsZh": "MORNING BRIEF · SEP 16 · OIL BREAKOUT · 10Y ABOVE 5% · CLARITY ACT FAILS · FED DECISION EVE",
+      "titleEn": "Oil Above $100, 10Y Above 5%: Extreme Positioning Into the Fed",
+      "tagsEn": "MORNING BRIEF · SEP 16 · OIL BREAKOUT · 10Y ABOVE 5% · CLARITY ACT FAILS · FED DECISION EVE",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260916-zh.html",
+        "en": "20260916-en.html"
+      },
+      "file": "20260916.html"
     }
   ]
 }
