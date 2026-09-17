@@ -584,6 +584,21 @@
         "en": "20260917-en.html"
       },
       "file": "20260917.html"
+    },
+    {
+      "dateISO": "2026-09-18",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考：美联储加息落地，油价与黄金异动，风险偏好再平衡",
+      "tagsZh": "EVENING BRIEF · Sep 17 · FED HIKE · OIL SPIKE · CRYPTO SELLOFF · GOLD BID",
+      "titleEn": "Atlas Daily Reference: Fed Hike Lands, Oil and Gold Diverge, Risk Appetite Rebalances",
+      "tagsEn": "EVENING BRIEF · Sep 17 · FED HIKE · OIL SPIKE · CRYPTO SELLOFF · GOLD BID",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260918-evening.html",
+        "en": "20260918-evening-en.html"
+      },
+      "file": "20260918-evening.html"
     }
   ]
 }
