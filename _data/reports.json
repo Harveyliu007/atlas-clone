@@ -599,6 +599,21 @@
         "en": "20260918-evening-en.html"
       },
       "file": "20260918-evening.html"
+    },
+    {
+      "dateISO": "2026-09-18",
+      "kind": "daily",
+      "titleZh": "油价破百与加息共振：TACO交易的危险时刻",
+      "tagsZh": "MORNING BRIEF · SEP 18 · OIL ABOVE $100 · FED HIKE · TACO TRADE · CRYPTO MELTDOWN",
+      "titleEn": "Atlas Daily: Oil Above $100 Meets a Hawkish Fed — The TACO Trade's Dangerous Moment",
+      "tagsEn": "MORNING BRIEF · SEP 18 · OIL ABOVE $100 · FED HIKE · TACO TRADE · CRYPTO MELTDOWN",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260918-zh.html",
+        "en": "20260918-en.html"
+      },
+      "file": "20260918.html"
     }
   ]
 }
