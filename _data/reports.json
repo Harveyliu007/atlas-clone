@@ -644,6 +644,21 @@
         "en": "20260919-en.html"
       },
       "file": "20260919.html"
+    },
+    {
+      "dateISO": "2026-09-20",
+      "kind": "weekly",
+      "titleZh": "美联储重启加息 · 美元破百 · 加密崩盘 · 油铜逼仓",
+      "tagsZh": "WEEKLY BRIEF · SEP 19 · FED HIKE RESTART · DOLLAR 100 · CRYPTO FLUSH · OIL SQUEEZE",
+      "titleEn": "Fed Restarts Hikes, Dollar Breaks 100, Crypto Flushes, Oil & Copper Squeeze",
+      "tagsEn": "WEEKLY BRIEF · SEP 19 · FED HIKE RESTART · DOLLAR 100 · CRYPTO FLUSH · OIL SQUEEZE",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20260920-zh.html",
+        "en": "weekly-20260920-en.html"
+      },
+      "file": "weekly-20260920.html"
     }
   ]
 }
