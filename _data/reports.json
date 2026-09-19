@@ -629,6 +629,21 @@
         "en": "20260919-evening-en.html"
       },
       "file": "20260919-evening.html"
+    },
+    {
+      "dateISO": "2026-09-19",
+      "kind": "daily",
+      "titleZh": "Atlas每日参考：10年期美债重回5%，AI资本开支黑洞与加密闪崩并存",
+      "tagsZh": "MORNING BRIEF · Sep 19 · 10Y AT 5% · AI CAPEX · CRYPTO FLASH CRASH",
+      "titleEn": "Atlas Daily: 10Y Back at 5%, AI Capex Black Hole Meets Crypto Flash Crash",
+      "tagsEn": "MORNING BRIEF · Sep 19 · 10Y AT 5% · AI CAPEX · CRYPTO FLASH CRASH",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20260919-zh.html",
+        "en": "20260919-en.html"
+      },
+      "file": "20260919.html"
     }
   ]
 }
