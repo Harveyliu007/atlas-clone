@@ -659,6 +659,21 @@
         "en": "weekly-20260920-en.html"
       },
       "file": "weekly-20260920.html"
+    },
+    {
+      "dateISO": "2026-09-22",
+      "kind": "evening",
+      "titleZh": "Atlas 晚报：芯片与Meta撑起纳指新高，油价与长端利率的背离在积累",
+      "tagsZh": "EVENING BRIEF · Sep 21 · META MUSE SURGE · AI CAPEX · DIESEL SHOCK · BTC 86K",
+      "titleEn": "Atlas Evening Brief: Chips and Meta Lift Nasdaq to Record, Oil-Rate Divergence Builds",
+      "tagsEn": "EVENING BRIEF · Sep 21 · META MUSE SURGE · AI CAPEX · DIESEL SHOCK · BTC 86K",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260922-evening.html",
+        "en": "20260922-evening-en.html"
+      },
+      "file": "20260922-evening.html"
     }
   ]
 }
