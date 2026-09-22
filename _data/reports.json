@@ -674,6 +674,21 @@
         "en": "20260922-evening-en.html"
       },
       "file": "20260922-evening.html"
+    },
+    {
+      "dateISO": "2026-09-22",
+      "kind": "daily",
+      "titleZh": "Atlas 每日参考：芯片与黄金齐飞，长端利率破5%的背离警报",
+      "tagsZh": "MORNING BRIEF · SEP 22 · CHIP MELT-UP · 10Y AT 4.96% · GOLD & OIL SPIKE",
+      "titleEn": "Atlas Daily: Chip Melt-Up Meets a 4.96% 10-Year — The Great Divergence",
+      "tagsEn": "MORNING BRIEF · SEP 22 · CHIP MELT-UP · 10Y AT 4.96% · GOLD & OIL SPIKE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260922-zh.html",
+        "en": "20260922-en.html"
+      },
+      "file": "20260922.html"
     }
   ]
 }
