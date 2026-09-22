@@ -689,6 +689,21 @@
         "en": "20260922-en.html"
       },
       "file": "20260922.html"
+    },
+    {
+      "dateISO": "2026-09-23",
+      "kind": "evening",
+      "titleZh": "极端贪婪下的错位：纳指新高、BTC崩跌与原油柴油禁令冲击",
+      "tagsZh": "EVENING BRIEF · Sep 22 · AI FOMO · BTC -23% · DIESEL EXPORT BAN · GOLD $4400",
+      "titleEn": "Divergence Under Extreme Greed: Nasdaq Highs, Bitcoin Crash, Diesel Ban Shock",
+      "tagsEn": "EVENING BRIEF · Sep 22 · AI FOMO · BTC -23% · DIESEL EXPORT BAN · GOLD $4400",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260923-evening.html",
+        "en": "20260923-evening-en.html"
+      },
+      "file": "20260923-evening.html"
     }
   ]
 }
