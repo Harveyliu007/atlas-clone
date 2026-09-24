@@ -734,6 +734,21 @@
         "en": "20260924-evening-en.html"
       },
       "file": "20260924-evening.html"
+    },
+    {
+      "dateISO": "2026-09-24",
+      "kind": "daily",
+      "titleZh": "美债黑色星期三：5%时代的再定价与AI信用裂痕",
+      "tagsZh": "MORNING BRIEF · SEP 24 · US-CHINA SUMMIT · 10Y ABOVE 5.1% · AI OFF-BALANCE-SHEET RISK",
+      "titleEn": "Black Wednesday in Treasuries: Repricing Above 5% Meets AI Credit Cracks",
+      "tagsEn": "MORNING BRIEF · SEP 24 · US-CHINA SUMMIT · 10Y ABOVE 5.1% · AI OFF-BALANCE-SHEET RISK",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20260924-zh.html",
+        "en": "20260924-en.html"
+      },
+      "file": "20260924.html"
     }
   ]
 }
