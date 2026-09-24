@@ -749,6 +749,21 @@
         "en": "20260924-en.html"
       },
       "file": "20260924.html"
+    },
+    {
+      "dateISO": "2026-09-25",
+      "kind": "evening",
+      "titleZh": "债市风暴与油价冲击：长端利率破位下的资产再定价",
+      "tagsZh": "EVENING BRIEF · Sep 24 · BOND ROUT · OIL SPIKE · FED HAWKISH · DEBASEMENT HEDGE",
+      "titleEn": "Bond Rout & Oil Shock: Asset Repricing as Long-End Yields Break Out",
+      "tagsEn": "EVENING BRIEF · Sep 24 · BOND ROUT · OIL SPIKE · FED HAWKISH · DEBASEMENT HEDGE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260925-evening.html",
+        "en": "20260925-evening-en.html"
+      },
+      "file": "20260925-evening.html"
     }
   ]
 }
