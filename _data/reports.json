@@ -764,6 +764,21 @@
         "en": "20260925-evening-en.html"
       },
       "file": "20260925-evening.html"
+    },
+    {
+      "dateISO": "2026-09-25",
+      "kind": "daily",
+      "titleZh": "长端利率破5.2%·美债抛售风暴与AI算力军备竞赛并行",
+      "tagsZh": "MORNING BRIEF · SEP 25 · 10Y ABOVE 5.2% · TREASURY ROUT · AI CAPEX ARMS RACE · GOLD-BTC DIVERGENCE",
+      "titleEn": "Long-End Yields Break 5.2%: Treasury Rout Meets the AI Capex Arms Race",
+      "tagsEn": "MORNING BRIEF · SEP 25 · 10Y ABOVE 5.2% · TREASURY ROUT · AI CAPEX ARMS RACE · GOLD-BTC DIVERGENCE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20260925-zh.html",
+        "en": "20260925-en.html"
+      },
+      "file": "20260925.html"
     }
   ]
 }
