@@ -794,6 +794,21 @@
         "en": "20260926-evening-en.html"
       },
       "file": "20260926-evening.html"
+    },
+    {
+      "dateISO": "2026-09-26",
+      "kind": "daily",
+      "titleZh": "美债风暴与霍尔木兹博弈：通胀交易全面接管",
+      "tagsZh": "MORNING BRIEF · SEP 26 · BOND ROUT · HORMUZ TALKS · INFLATION TRADE",
+      "titleEn": "Bond Rout Meets Hormuz Chess: The Inflation Trade Takes Over",
+      "tagsEn": "MORNING BRIEF · SEP 26 · BOND ROUT · HORMUZ TALKS · INFLATION TRADE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20260926-zh.html",
+        "en": "20260926-en.html"
+      },
+      "file": "20260926.html"
     }
   ]
 }
