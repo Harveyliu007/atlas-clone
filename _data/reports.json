@@ -824,6 +824,21 @@
         "en": "weekly-20260927-en.html"
       },
       "file": "weekly-20260927.html"
+    },
+    {
+      "dateISO": "2026-09-29",
+      "kind": "evening",
+      "titleZh": "债市起义：10年期美债破5.2%，AI叙事遭遇加息定价重估",
+      "tagsZh": "EVENING BRIEF · Sep 29 · BOND SELLOFF · REAL YIELDS 2007 HIGH · AI CAPEX VS RATES",
+      "titleEn": "Bond Revolt: 10Y Above 5.2%, AI Narrative Repriced Against Rate Reality",
+      "tagsEn": "EVENING BRIEF · Sep 29 · BOND SELLOFF · REAL YIELDS AT 2007 HIGHS · AI CAPEX VS RATES",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20260929-evening.html",
+        "en": "20260929-evening-en.html"
+      },
+      "file": "20260929-evening.html"
     }
   ]
 }
