@@ -839,6 +839,21 @@
         "en": "20260929-evening-en.html"
       },
       "file": "20260929-evening.html"
+    },
+    {
+      "dateISO": "2026-09-30",
+      "kind": "evening",
+      "titleZh": "Atlas 晚报：30年美债破5.6%与加密闪崩，AI自律时代开启",
+      "tagsZh": "EVENING BRIEF · Sep 29 · 30Y UST 5.6% · BTC -27% · AI SELF-REGULATION",
+      "titleEn": "Atlas Evening Brief: 30Y Treasury Breaks 5.6%, Crypto Flash-Crash, The AI Self-Regulation Era",
+      "tagsEn": "EVENING BRIEF · Sep 29 · 30Y UST 5.6% · BTC -27% · AI SELF-REGULATION",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20260930-evening.html",
+        "en": "20260930-evening-en.html"
+      },
+      "file": "20260930-evening.html"
     }
   ]
 }
