@@ -869,6 +869,21 @@
         "en": "20260930-en.html"
       },
       "file": "20260930.html"
+    },
+    {
+      "dateISO": "2026-10-01",
+      "kind": "evening",
+      "titleZh": "债市风暴与加密闪崩：5.3%长端利率重定价一切",
+      "tagsZh": "EVENING BRIEF · Oct 1 · 10Y ABOVE 5.3% · CRYPTO LIQUIDATION · GOLD-BOND DIVERGENCE",
+      "titleEn": "Bond Rout Meets Crypto Crash: 5.3% Long-End Reprices Everything",
+      "tagsEn": "EVENING BRIEF · Oct 1 · 10Y ABOVE 5.3% · CRYPTO LIQUIDATION · GOLD-BOND DIVERGENCE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261001-evening.html",
+        "en": "20261001-evening-en.html"
+      },
+      "file": "20261001-evening.html"
     }
   ]
 }
