@@ -884,6 +884,21 @@
         "en": "20261001-evening-en.html"
       },
       "file": "20261001-evening.html"
+    },
+    {
+      "dateISO": "2026-10-01",
+      "kind": "daily",
+      "titleZh": "美债风暴与算力繁荣对撞：5.3%长端利率下的资产再定价",
+      "tagsZh": "MORNING BRIEF · OCT 1 · US 10Y BREAKS 5.3% · AI CAPEX SUPERCYCLE · GOLD-BTC DIVERGENCE",
+      "titleEn": "US Treasury Rout Meets AI Capex Boom: Asset Repricing Above 5.3%",
+      "tagsEn": "MORNING BRIEF · OCT 1 · US 10Y BREAKS 5.3% · AI CAPEX SUPERCYCLE · GOLD-BTC DIVERGENCE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261001-zh.html",
+        "en": "20261001-en.html"
+      },
+      "file": "20261001.html"
     }
   ]
 }
