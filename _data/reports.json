@@ -899,6 +899,21 @@
         "en": "20261001-en.html"
       },
       "file": "20261001.html"
+    },
+    {
+      "dateISO": "2026-10-02",
+      "kind": "evening",
+      "titleZh": "Atlas 晚报：5.24% 长端利率与三航母中东——通胀交易全面接管市场",
+      "tagsZh": "EVENING BRIEF · Oct 2 · 10Y ABOVE 5.2% · OIL SPIKES ON CARRIER DEPLOYMENT · BTC -30% · GREED 72",
+      "titleEn": "Atlas Evening Brief: 5.24% Long-End Yields and a Third Carrier Group — The Inflation Trade Takes Over",
+      "tagsEn": "EVENING BRIEF · Oct 2 · 10Y ABOVE 5.2% · OIL SPIKES ON CARRIER DEPLOYMENT · BTC -30% · GREED 72",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261002-evening.html",
+        "en": "20261002-evening-en.html"
+      },
+      "file": "20261002-evening.html"
     }
   ]
 }
