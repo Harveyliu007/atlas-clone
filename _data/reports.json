@@ -914,6 +914,21 @@
         "en": "20261002-evening-en.html"
       },
       "file": "20261002-evening.html"
+    },
+    {
+      "dateISO": "2026-10-02",
+      "kind": "daily",
+      "titleZh": "美债5.34%冲击波：全球久期重定价，美元与油金同涨",
+      "tagsZh": "MORNING BRIEF · OCT 2 · 10Y AT 5.34% · GLOBAL DURATION SHOCK · DOLLAR SQUEEZE",
+      "titleEn": "US 10Y at 5.34%: Global Duration Repricing, Dollar and Commodities Bid",
+      "tagsEn": "MORNING BRIEF · OCT 2 · 10Y AT 5.34% · GLOBAL DURATION SHOCK · DOLLAR SQUEEZE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261002-zh.html",
+        "en": "20261002-en.html"
+      },
+      "file": "20261002.html"
     }
   ]
 }
