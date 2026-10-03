@@ -944,6 +944,21 @@
         "en": "20261003-evening-en.html"
       },
       "file": "20261003-evening.html"
+    },
+    {
+      "dateISO": "2026-10-03",
+      "kind": "daily",
+      "titleZh": "Atlas每日参考：非农爆冷与加息预期退坡，AI独撑美股新高，长端利率与欧债裂口共振",
+      "tagsZh": "MORNING BRIEF · OCT 3 · JOBS MISS · AI MELT-UP · 5% 10Y · ECB-SPREAD SHOCK · OIL SUPPLY HEADLINE",
+      "titleEn": "Atlas Daily: Payroll Miss Cuts Hike Odds, AI Carries Index Highs as Long-End Yields and EU Spreads Fracture",
+      "tagsEn": "MORNING BRIEF · OCT 3 · JOBS MISS · AI MELT-UP · 5% 10Y · ECB-SPREAD SHOCK · OIL SUPPLY HEADLINE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261003-zh.html",
+        "en": "20261003-en.html"
+      },
+      "file": "20261003.html"
     }
   ]
 }
