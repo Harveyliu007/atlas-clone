@@ -929,6 +929,21 @@
         "en": "20261002-en.html"
       },
       "file": "20261002.html"
+    },
+    {
+      "dateISO": "2026-10-03",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考：非农爆冷与加息退坡，AI 独强、债汇商品剧烈重定价",
+      "tagsZh": "EVENING BRIEF · OCT 3 · WEAK PAYROLLS · AI MOMENTUM · G7 DIESEL RELEASE · DEBASEMENT HEDGE",
+      "titleEn": "Atlas Daily Reference: Weak Payrolls, Fading Hike Bets, AI Leadership and Violent Cross-Asset Repricing",
+      "tagsEn": "EVENING BRIEF · OCT 3 · WEAK PAYROLLS · AI MOMENTUM · G7 DIESEL RELEASE · DEBASEMENT HEDGE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261003-evening.html",
+        "en": "20261003-evening-en.html"
+      },
+      "file": "20261003-evening.html"
     }
   ]
 }
