@@ -959,6 +959,21 @@
         "en": "20261003-en.html"
       },
       "file": "20261003.html"
+    },
+    {
+      "dateISO": "2026-10-06",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考：AI 泡沫与地缘风暴的对撞，长端利率失控下的资产再定价",
+      "tagsZh": "晚间简报 · 10月6日 · 胡塞袭沙特 · 10Y美债5.31% · 黄金逼空 · 比特币闪崩",
+      "titleEn": "Atlas Daily Reference: AI Froth Meets Geopolitical Shock as Long-End Yields Break Out",
+      "tagsEn": "EVENING BRIEF · OCT 6 · HOUTHI STRIKES · 10Y AT 5.31% · GOLD SQUEEZE · BTC FLASH CRASH",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261006-evening.html",
+        "en": "20261006-evening-en.html"
+      },
+      "file": "20261006-evening.html"
     }
   ]
 }
