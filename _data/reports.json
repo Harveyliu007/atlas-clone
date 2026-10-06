@@ -974,6 +974,21 @@
         "en": "20261006-evening-en.html"
       },
       "file": "20261006-evening.html"
+    },
+    {
+      "dateISO": "2026-10-06",
+      "kind": "daily",
+      "titleZh": "美债破5.3%与油价冲击：AI独木难支的裂缝",
+      "tagsZh": "DAILY BRIEF · OCT 6 · 30Y NEAR 6% · HORMUZ RISK · AI CREDIT BOOM",
+      "titleEn": "US 30Y Near 6% and Hormuz Shock: The Cracks Beneath the AI Melt-Up",
+      "tagsEn": "DAILY BRIEF · OCT 6 · 30Y NEAR 6% · HORMUZ RISK · AI CREDIT BOOM",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261006-zh.html",
+        "en": "20261006-en.html"
+      },
+      "file": "20261006.html"
     }
   ]
 }
