@@ -989,6 +989,21 @@
         "en": "20261006-en.html"
       },
       "file": "20261006.html"
+    },
+    {
+      "dateISO": "2026-10-07",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考 · 美股新高与债市高息的拉锯",
+      "tagsZh": "EVENING BRIEF · Oct 07 · S&P RECORD · 10Y 5.27% · CRYPTO MELTDOWN · AI POWER TRADE",
+      "titleEn": "Atlas Daily Reference · Record Equities vs. 5.27% Yields",
+      "tagsEn": "EVENING BRIEF · Oct 07 · S&P RECORD · 10Y 5.27% · CRYPTO MELTDOWN · AI POWER TRADE",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261007-evening.html",
+        "en": "20261007-evening-en.html"
+      },
+      "file": "20261007-evening.html"
     }
   ]
 }
