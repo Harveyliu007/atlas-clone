@@ -1004,6 +1004,21 @@
         "en": "20261007-evening-en.html"
       },
       "file": "20261007-evening.html"
+    },
+    {
+      "dateISO": "2026-10-07",
+      "kind": "daily",
+      "titleZh": "Atlas 每日参考：AI独木撑起指数新高，长端利率与加密同步异动",
+      "tagsZh": "MORNING BRIEF · Oct 7 · AI INFRA DEBT BOOM · 10Y 5.27% · GOLD REBOUND · CRYPTO AIR POCKET",
+      "titleEn": "Atlas Daily: AI Narrowness vs 5.27% 10Y — Crypto Air Pocket",
+      "tagsEn": "MORNING BRIEF · Oct 7 · AI INFRA DEBT BOOM · 10Y 5.27% · GOLD REBOUND · CRYPTO AIR POCKET",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261007-zh.html",
+        "en": "20261007-en.html"
+      },
+      "file": "20261007.html"
     }
   ]
 }
