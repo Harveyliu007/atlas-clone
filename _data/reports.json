@@ -1019,6 +1019,21 @@
         "en": "20261007-en.html"
       },
       "file": "20261007.html"
+    },
+    {
+      "dateISO": "2026-10-08",
+      "kind": "evening",
+      "titleZh": "Atlas晚报：债市风暴与AI虹吸，指数新高下的暗流",
+      "tagsZh": "EVENING BRIEF · Oct 8 · BOND STORM · AI MELT-UP · DEBASEMENT HEDGE",
+      "titleEn": "Atlas Evening: Bond Storm and AI Siphon — Hidden Currents Beneath Record Highs",
+      "tagsEn": "EVENING BRIEF · Oct 8 · BOND STORM · AI MELT-UP · DEBASEMENT HEDGE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261008-evening.html",
+        "en": "20261008-evening-en.html"
+      },
+      "file": "20261008-evening.html"
     }
   ]
 }
