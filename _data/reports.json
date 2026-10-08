@@ -1034,6 +1034,21 @@
         "en": "20261008-evening-en.html"
       },
       "file": "20261008-evening.html"
+    },
+    {
+      "dateISO": "2026-10-08",
+      "kind": "daily",
+      "titleZh": "长端利率风暴与AI资本局：共识裂缝中的再定价",
+      "tagsZh": "MORNING BRIEF · OCT 8 · 10Y 5.28% · AI CAPEX SUPERCYCLE · CRYPTO SHOCK",
+      "titleEn": "Long-End Storm Meets the AI Capex Machine: Repricing Inside a Fracturing Consensus",
+      "tagsEn": "MORNING BRIEF · OCT 8 · 10Y AT 5.28% · AI CAPEX SUPERCYCLE · CRYPTO SHOCK",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261008-zh.html",
+        "en": "20261008-en.html"
+      },
+      "file": "20261008.html"
     }
   ]
 }
