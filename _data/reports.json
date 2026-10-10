@@ -1094,6 +1094,21 @@
         "en": "20261010-evening-en.html"
       },
       "file": "20261010-evening.html"
+    },
+    {
+      "dateISO": "2026-10-10",
+      "kind": "daily",
+      "titleZh": "Atlas 每日参考：AI收入口径疑云再起，长端利率破5.24%与加密闪崩共振",
+      "tagsZh": "DAILY BRIEF · OCT 10 · OPENAI REVENUE RESET · 10Y 5.24% · CRYPTO CAPITULATION",
+      "titleEn": "Atlas Daily: AI Revenue Accounting Doubts, 10Y Above 5.24% and Crypto Capitulation",
+      "tagsEn": "DAILY BRIEF · Oct 10 · OPENAI REVENUE RESET · 10Y 5.24% · CRYPTO CAPITULATION",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261010-zh.html",
+        "en": "20261010-en.html"
+      },
+      "file": "20261010.html"
     }
   ]
 }
