@@ -1079,6 +1079,21 @@
         "en": "20261009-en.html"
       },
       "file": "20261009.html"
+    },
+    {
+      "dateISO": "2026-10-10",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考 · 10月10日晚间：AI叙事回血与滞胀裂痕并存",
+      "tagsZh": "EVENING BRIEF · Oct 10 · AI REBOUND · STAGFLATION SEAM · DEBASEMENT TRADE",
+      "titleEn": "Atlas Daily Reference · Oct 10 Evening: AI Narrative Recovers, Stagflation Seam Widens",
+      "tagsEn": "EVENING BRIEF · Oct 10 · AI REBOUND · STAGFLATION SEAM · DEBASEMENT TRADE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261010-evening.html",
+        "en": "20261010-evening-en.html"
+      },
+      "file": "20261010-evening.html"
     }
   ]
 }
