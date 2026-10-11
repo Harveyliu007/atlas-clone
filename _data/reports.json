@@ -1109,6 +1109,21 @@
         "en": "20261010-en.html"
       },
       "file": "20261010.html"
+    },
+    {
+      "dateISO": "2026-10-11",
+      "kind": "weekly",
+      "titleZh": "Atlas 每日参考：美债5.24%与BTC单日-25%的流动性裂缝",
+      "tagsZh": "WEEKLY BRIEF · OCT 11 · 10Y 5.24% · BTC -25% · RIYADH ESCALATION · DIESEL SHOCK",
+      "titleEn": "Atlas Weekly: A Liquidity Crack — 10Y at 5.24%, BTC -25%, Riyadh Escalation",
+      "tagsEn": "WEEKLY BRIEF · OCT 11 · 10Y 5.24% · BTC -25% · RIYADH ESCALATION · DIESEL SHOCK",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20261011-zh.html",
+        "en": "weekly-20261011-en.html"
+      },
+      "file": "weekly-20261011.html"
     }
   ]
 }
