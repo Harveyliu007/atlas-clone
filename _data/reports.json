@@ -1124,6 +1124,21 @@
         "en": "weekly-20261011-en.html"
       },
       "file": "weekly-20261011.html"
+    },
+    {
+      "dateISO": "2026-10-13",
+      "kind": "evening",
+      "titleZh": "存储链断裂与利率冲击：科技资金流急剧逆转，价值与短债承接",
+      "tagsZh": "EVENING BRIEF · Oct 13 · MEMORY SELLOFF · 10Y 5.24% · GOLD-BUYING YUAN · AI CAPEX ROI DEBATE",
+      "titleEn": "Memory-Chain Break and Rate Shock: Tech Flows Reverse Sharply, Value and Front-End Bonds Absorb",
+      "tagsEn": "EVENING BRIEF · Oct 13 · MEMORY SELLOFF · 10Y 5.24% · GOLD-BUYING YUAN · AI CAPEX ROI DEBATE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261013-evening.html",
+        "en": "20261013-evening-en.html"
+      },
+      "file": "20261013-evening.html"
     }
   ]
 }
