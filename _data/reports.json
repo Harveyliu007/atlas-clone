@@ -1139,6 +1139,21 @@
         "en": "20261013-evening-en.html"
       },
       "file": "20261013-evening.html"
+    },
+    {
+      "dateISO": "2026-10-13",
+      "kind": "daily",
+      "titleZh": "AI资本开支恐慌蔓延亚洲，债市异动与加密闪崩撕裂风险定价",
+      "tagsZh": "MORNING BRIEF · Oct 13 · AI CAPEX FEARS · CHIP SELLOFF · 10Y ABOVE 5.2% · CRYPTO FLASH CRASH",
+      "titleEn": "AI Capex Angst Spreads Across Asia as Bond Yields Spike and Crypto Flash-Crashes",
+      "tagsEn": "MORNING BRIEF · Oct 13 · AI CAPEX FEARS · CHIP SELLOFF · 10Y ABOVE 5.2% · CRYPTO FLASH CRASH",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261013-zh.html",
+        "en": "20261013-en.html"
+      },
+      "file": "20261013.html"
     }
   ]
 }
