@@ -1154,6 +1154,21 @@
         "en": "20261013-en.html"
       },
       "file": "20261013.html"
+    },
+    {
+      "dateISO": "2026-10-14",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考 · 长端利率5.2%与加密闪崩：AI资本开支叙事遭遇第一次压力测试",
+      "tagsZh": "EVENING BRIEF · Oct 14 · 10Y 5.22% · CRYPTO FLASH CRASH · AI CAPEX STRESS TEST",
+      "titleEn": "Atlas Daily Reference · 10Y at 5.22% and a Crypto Flash Crash: The First Stress Test of the AI Capex Narrative",
+      "tagsEn": "EVENING BRIEF · Oct 14 · 10Y 5.22% · CRYPTO FLASH CRASH · AI CAPEX STRESS TEST",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261014-evening.html",
+        "en": "20261014-evening-en.html"
+      },
+      "file": "20261014-evening.html"
     }
   ]
 }
