@@ -1199,6 +1199,21 @@
         "en": "20261015-evening-en.html"
       },
       "file": "20261015-evening.html"
+    },
+    {
+      "dateISO": "2026-10-16",
+      "kind": "evening",
+      "titleZh": "AI信用裂痕与债市避险：当流动性叙事遭遇债务现实",
+      "tagsZh": "EVENING BRIEF · Oct 15 · AI CREDIT STRESS · TREASURY RALLY · OIL SPIKE · DEBASEMENT HEDGE",
+      "titleEn": "AI Credit Cracks and the Treasury Bid: When Liquidity Narrative Meets Debt Reality",
+      "tagsEn": "EVENING BRIEF · Oct 15 · AI CREDIT STRESS · TREASURY RALLY · OIL SPIKE · DEBASEMENT HEDGE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261016-evening.html",
+        "en": "20261016-evening-en.html"
+      },
+      "file": "20261016-evening.html"
     }
   ]
 }
