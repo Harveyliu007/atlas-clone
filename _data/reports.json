@@ -1214,6 +1214,21 @@
         "en": "20261016-evening-en.html"
       },
       "file": "20261016-evening.html"
+    },
+    {
+      "dateISO": "2026-10-16",
+      "kind": "daily",
+      "titleZh": "AI信用裂缝扩大：股债背离下的黄金与原油双主线",
+      "tagsZh": "MORNING BRIEF · OCT 16 · AI CREDIT STRESS · HORMUZ RISK PREMIUM · DEBASEMENT TRADE",
+      "titleEn": "AI Credit Cracks Widen: Equities-Bonds Divergence, Gold and Crude Lead",
+      "tagsEn": "MORNING BRIEF · OCT 16 · AI CREDIT STRESS · HORMUZ RISK PREMIUM · DEBASEMENT TRADE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261016-zh.html",
+        "en": "20261016-en.html"
+      },
+      "file": "20261016.html"
     }
   ]
 }
