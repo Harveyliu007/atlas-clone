@@ -1229,6 +1229,21 @@
         "en": "20261016-en.html"
       },
       "file": "20261016.html"
+    },
+    {
+      "dateISO": "2026-10-17",
+      "kind": "evening",
+      "titleZh": "AI信用裂缝撕裂风险资产：5%美债、110美元布油与加密闪崩的三重夹击",
+      "tagsZh": "EVENING BRIEF · Oct 16 · AI CREDIT STRESS · 5% YIELDS · BRENT $110 · CRYPTO LIQUIDATION",
+      "titleEn": "AI Credit Cracks Fracture Risk Assets: Triple Squeeze of 5% Treasuries, $110 Brent and a Crypto Flash Crash",
+      "tagsEn": "EVENING BRIEF · Oct 16 · AI CREDIT STRESS · 5% YIELDS · BRENT $110 · CRYPTO LIQUIDATION",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261017-evening.html",
+        "en": "20261017-evening-en.html"
+      },
+      "file": "20261017-evening.html"
     }
   ]
 }
