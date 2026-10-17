@@ -1259,6 +1259,21 @@
         "en": "20261017-en.html"
       },
       "file": "20261017.html"
+    },
+    {
+      "dateISO": "2026-10-18",
+      "kind": "weekly",
+      "titleZh": "AI信用裂缝与油价冲击：通胀交易回归，贵金属失血",
+      "tagsZh": "WEEKLY BRIEF · OCT 17 · AI CREDIT STRESS · OIL SPIKE · INFLATION TRADE",
+      "titleEn": "AI Credit Cracks and an Oil Shock: The Inflation Trade Returns, Gold Bleeds",
+      "tagsEn": "WEEKLY BRIEF · OCT 17 · AI CREDIT STRESS · OIL SPIKE · INFLATION TRADE",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20261018-zh.html",
+        "en": "weekly-20261018-en.html"
+      },
+      "file": "weekly-20261018.html"
     }
   ]
 }
