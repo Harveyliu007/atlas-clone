@@ -1244,6 +1244,21 @@
         "en": "20261017-evening-en.html"
       },
       "file": "20261017-evening.html"
+    },
+    {
+      "dateISO": "2026-10-17",
+      "kind": "daily",
+      "titleZh": "AI信贷裂缝与通胀扩散：5%美债下的多资产重定价",
+      "tagsZh": "DAILY BRIEF · OCT 17 · AI CREDIT STRESS · 5% YIELDS · OIL $110 · DEBASEMENT HEDGE",
+      "titleEn": "AI Credit Cracks Meet Sticky Inflation: Multi-Asset Repricing Above 5% Yields",
+      "tagsEn": "DAILY BRIEF · OCT 17 · AI CREDIT STRESS · 5% YIELDS · OIL $110 · DEBASEMENT HEDGE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261017-zh.html",
+        "en": "20261017-en.html"
+      },
+      "file": "20261017.html"
     }
   ]
 }
