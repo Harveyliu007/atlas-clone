@@ -1274,6 +1274,21 @@
         "en": "weekly-20261018-en.html"
       },
       "file": "weekly-20261018.html"
+    },
+    {
+      "dateISO": "2026-10-20",
+      "kind": "evening",
+      "titleZh": "原油单日暴动与美债5.1%：滞胀交易重新定价",
+      "tagsZh": "EVENING BRIEF · OCT 19 · OIL SPIKE · 10Y 5.13% · FRENCH RIOTS · CRYPTO LIQUIDATION",
+      "titleEn": "Oil Shock and 5.1% 10Y: The Stagflation Trade Reprices",
+      "tagsEn": "EVENING BRIEF · OCT 19 · OIL SPIKE · 10Y 5.13% · FRENCH RIOTS · CRYPTO LIQUIDATION",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261020-evening.html",
+        "en": "20261020-evening-en.html"
+      },
+      "file": "20261020-evening.html"
     }
   ]
 }
