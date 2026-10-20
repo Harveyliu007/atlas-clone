@@ -1289,6 +1289,21 @@
         "en": "20261020-evening-en.html"
       },
       "file": "20261020-evening.html"
+    },
+    {
+      "dateISO": "2026-10-20",
+      "kind": "daily",
+      "titleZh": "油价失控与AI抄底：通胀交易重启下的资产再定价",
+      "tagsZh": "MORNING BRIEF · OCT 20 · OIL SPIKE · AI DIP-BUY · DEBASEMENT HEDGE",
+      "titleEn": "Oil Shock Meets AI Dip-Buying: Inflation Trade Reawakens",
+      "tagsEn": "MORNING BRIEF · OCT 20 · OIL SPIKE · AI DIP-BUY · DEBASEMENT HEDGE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261020-zh.html",
+        "en": "20261020-en.html"
+      },
+      "file": "20261020.html"
     }
   ]
 }
