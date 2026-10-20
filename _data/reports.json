@@ -1304,6 +1304,21 @@
         "en": "20261020-en.html"
       },
       "file": "20261020.html"
+    },
+    {
+      "dateISO": "2026-10-21",
+      "kind": "evening",
+      "titleZh": "美债5.1%与原油70%冲击波：流动性拐点下的跨资产重定价",
+      "tagsZh": "EVENING BRIEF · OCT 20 · 10Y 5.1% · OIL SPIKE · BTC CRASH · DEBASEMENT HEDGE",
+      "titleEn": "10Y at 5.1% and Oil Shock Reprice Every Asset: Liquidity Inflection Cross-Asset Reset",
+      "tagsEn": "EVENING BRIEF · OCT 20 · 10Y 5.1% · OIL SPIKE · BTC CRASH · DEBASEMENT HEDGE",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261021-evening.html",
+        "en": "20261021-evening-en.html"
+      },
+      "file": "20261021-evening.html"
     }
   ]
 }
