@@ -1334,6 +1334,21 @@
         "en": "20261021-en.html"
       },
       "file": "20261021.html"
+    },
+    {
+      "dateISO": "2026-10-22",
+      "kind": "evening",
+      "titleZh": "美债5%警报与AI季报分化：原油飙升、加密闪崩下的跨资产再定价",
+      "tagsZh": "EVENING BRIEF · OCT 21 · 10Y 5.146% · OIL SPIKE · CRYPTO CRASH · AI EARNINGS BEAT",
+      "titleEn": "5% Treasury Alarm Meets AI Earnings Divergence: Cross-Asset Repricing as Oil Spikes and Crypto Crashes",
+      "tagsEn": "EVENING BRIEF · OCT 21 · 10Y 5.146% · OIL SPIKE · CRYPTO CRASH · AI EARNINGS BEAT",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261022-evening.html",
+        "en": "20261022-evening-en.html"
+      },
+      "file": "20261022-evening.html"
     }
   ]
 }
