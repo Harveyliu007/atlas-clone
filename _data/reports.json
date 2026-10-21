@@ -1319,6 +1319,21 @@
         "en": "20261021-evening-en.html"
       },
       "file": "20261021-evening.html"
+    },
+    {
+      "dateISO": "2026-10-21",
+      "kind": "daily",
+      "titleZh": "",
+      "tagsZh": "MORNING BRIEF · OCT 21 · OIL SHOCK · AI CDS BLOWOUT · CRYPTO LIQUIDATION",
+      "titleEn": "Twin Bubbles: Inflation Repricing Meets AI Credit Cracks",
+      "tagsEn": "MORNING BRIEF · OCT 21 · OIL SHOCK · AI CDS BLOWOUT · CRYPTO LIQUIDATION",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261021-zh.html",
+        "en": "20261021-en.html"
+      },
+      "file": "20261021.html"
     }
   ]
 }
