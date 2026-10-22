@@ -1364,6 +1364,21 @@
         "en": "20261022-en.html"
       },
       "file": "20261022.html"
+    },
+    {
+      "dateISO": "2026-10-23",
+      "kind": "evening",
+      "titleZh": "Atlas 晚报：AI 资本开支裂缝与中东油价冲击",
+      "tagsZh": "EVENING BRIEF · OCT 22 · AI CAPEX CRACKS · OIL SHOCK · GOLD CAPITULATION",
+      "titleEn": "Atlas Evening Brief: AI Capex Cracks Meet Middle East Oil Shock",
+      "tagsEn": "EVENING BRIEF · OCT 22 · AI CAPEX CRACKS · OIL SHOCK · GOLD CAPITULATION",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261023-evening.html",
+        "en": "20261023-evening-en.html"
+      },
+      "file": "20261023-evening.html"
     }
   ]
 }
