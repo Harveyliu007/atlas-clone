@@ -1379,6 +1379,21 @@
         "en": "20261023-evening-en.html"
       },
       "file": "20261023-evening.html"
+    },
+    {
+      "dateISO": "2026-10-23",
+      "kind": "daily",
+      "titleZh": "AI资本开支裂缝与油价冲击：避险钟摆转向美债",
+      "tagsZh": "MORNING BRIEF · OCT 23 · AI CAPEX CRACKS · OIL SHOCK · DEBASEMENT PAUSE",
+      "titleEn": "AI Capex Cracks and Oil Shock: The Risk Pendulum Swings to Treasuries",
+      "tagsEn": "MORNING BRIEF · OCT 23 · AI CAPEX CRACKS · OIL SHOCK · DEBASEMENT PAUSE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261023-zh.html",
+        "en": "20261023-en.html"
+      },
+      "file": "20261023.html"
     }
   ]
 }
