@@ -1394,6 +1394,21 @@
         "en": "20261023-en.html"
       },
       "file": "20261023.html"
+    },
+    {
+      "dateISO": "2026-10-24",
+      "kind": "evening",
+      "titleZh": "油价破百与AI信用裂痕：滞胀交易全面接管",
+      "tagsZh": "EVENING BRIEF · OCT 23 · OIL SHOCK · AI CREDIT STRESS · STAGFLATION TRADE",
+      "titleEn": "Oil Above $100 and AI Credit Cracks: The Stagflation Trade Takes Over",
+      "tagsEn": "EVENING BRIEF · OCT 23 · OIL SHOCK · AI CREDIT STRESS · STAGFLATION TRADE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261024-evening.html",
+        "en": "20261024-evening-en.html"
+      },
+      "file": "20261024-evening.html"
     }
   ]
 }
