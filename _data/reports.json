@@ -1424,6 +1424,21 @@
         "en": "20261024-en.html"
       },
       "file": "20261024.html"
+    },
+    {
+      "dateISO": "2026-10-25",
+      "kind": "weekly",
+      "titleZh": "算力信用裂痕与油价脉冲：AI去杠杆第二周的全资产压力测试",
+      "tagsZh": "WEEKLY BRIEF · OCT 24 · AI DELEVERAGING · OIL SPIKE · CRYPTO LIQUIDATION",
+      "titleEn": "Compute-Credit Cracks & the Oil Pulse: Week Two of the AI Deleveraging Stress Test",
+      "tagsEn": "WEEKLY BRIEF · OCT 24 · AI DELEVERAGING · OIL SPIKE · CRYPTO LIQUIDATION",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20261025-zh.html",
+        "en": "weekly-20261025-en.html"
+      },
+      "file": "weekly-20261025.html"
     }
   ]
 }
