@@ -1409,6 +1409,21 @@
         "en": "20261024-evening-en.html"
       },
       "file": "20261024-evening.html"
+    },
+    {
+      "dateISO": "2026-10-24",
+      "kind": "daily",
+      "titleZh": "油价破百改写通胀叙事，AI信用裂痕与避险资产重定价",
+      "tagsZh": "MORNING BRIEF · OCT 24 · OIL $100+ · AI CREDIT STRESS · SAFE-HAVEN REPRICING",
+      "titleEn": "Oil Above $100 Rewrites Inflation Narrative as AI Credit Cracks and Safe Havens Reprice",
+      "tagsEn": "MORNING BRIEF · OCT 24 · OIL $100+ · AI CREDIT STRESS · SAFE-HAVEN REPRICING",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261024-zh.html",
+        "en": "20261024-en.html"
+      },
+      "file": "20261024.html"
     }
   ]
 }
