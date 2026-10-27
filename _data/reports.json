@@ -1439,6 +1439,21 @@
         "en": "weekly-20261025-en.html"
       },
       "file": "weekly-20261025.html"
+    },
+    {
+      "dateISO": "2026-10-27",
+      "kind": "evening",
+      "titleZh": "Atlas 晚报：油价单日暴涨65%，AI资本循环与巴西选举冲击波",
+      "tagsZh": "EVENING BRIEF · OCT 27 · OIL SPIKE · ANTHROPIC IPO · BRAZIL ELECTION · AI CAPEX LOOP",
+      "titleEn": "Atlas Evening Brief: Oil +65% Shock, AI Capex Loop and Brazil Election Contagion",
+      "tagsEn": "EVENING BRIEF · OCT 27 · OIL SPIKE · ANTHROPIC IPO · BRAZIL ELECTION · AI CAPEX LOOP",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261027-evening.html",
+        "en": "20261027-evening-en.html"
+      },
+      "file": "20261027-evening.html"
     }
   ]
 }
