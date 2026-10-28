@@ -1484,6 +1484,21 @@
         "en": "20261028-evening-en.html"
       },
       "file": "20261028-evening.html"
+    },
+    {
+      "dateISO": "2026-10-28",
+      "kind": "daily",
+      "titleZh": "油价破百与存储狂欢：AI资本闭环承压，长端利率逼近5%",
+      "tagsZh": "MORNING BRIEF · OCT 28 · OIL $100 · AI CAPEX LOOP · 10Y 4.99% · BTC -28%",
+      "titleEn": "Oil Breaks $100, Memory Euphoria vs. AI Capex Loop Risk; 10Y Nears 5%",
+      "tagsEn": "MORNING BRIEF · OCT 28 · OIL $100 · AI CAPEX LOOP · 10Y 4.99% · BTC -28%",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261028-zh.html",
+        "en": "20261028-en.html"
+      },
+      "file": "20261028.html"
     }
   ]
 }
