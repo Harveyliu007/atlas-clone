@@ -1469,6 +1469,21 @@
         "en": "20261027-en.html"
       },
       "file": "20261027.html"
+    },
+    {
+      "dateISO": "2026-10-28",
+      "kind": "evening",
+      "titleZh": "油价冲击与AI反弹撕裂市场：美联储决议前的多空对峙",
+      "tagsZh": "EVENING BRIEF · OCT 28 · OIL SPIKE · AI EARNINGS · FED DIVIDE · BTC LIQUIDATION",
+      "titleEn": "Oil Shock Meets AI Rebound: A Market Torn Before the Fed",
+      "tagsEn": "",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261028-evening.html",
+        "en": "20261028-evening-en.html"
+      },
+      "file": "20261028-evening.html"
     }
   ]
 }
