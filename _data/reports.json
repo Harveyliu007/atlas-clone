@@ -1499,6 +1499,21 @@
         "en": "20261028-en.html"
       },
       "file": "20261028.html"
+    },
+    {
+      "dateISO": "2026-10-29",
+      "kind": "evening",
+      "titleZh": "Atlas 晚报：鹰派按兵不动与AI财报裂痕，油价与加密的极端分化",
+      "tagsZh": "EVENING BRIEF · OCT 29 · FED HAWKISH HOLD · AI EARNINGS DIVERGENCE · OIL SPIKE · CRYPTO CRASH",
+      "titleEn": "Atlas Evening: Hawkish Hold Meets AI Earnings Cracks; Oil and Crypto Diverge Violently",
+      "tagsEn": "EVENING BRIEF · OCT 29 · FED HAWKISH HOLD · AI EARNINGS DIVERGENCE · OIL SPIKE · CRYPTO CRASH",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261029-evening.html",
+        "en": "20261029-evening-en.html"
+      },
+      "file": "20261029-evening.html"
     }
   ]
 }
