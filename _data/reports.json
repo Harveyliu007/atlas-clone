@@ -1514,6 +1514,21 @@
         "en": "20261029-evening-en.html"
       },
       "file": "20261029-evening.html"
+    },
+    {
+      "dateISO": "2026-10-29",
+      "kind": "daily",
+      "titleZh": "油价百元冲击与AI资本裂痕：美联储鹰派按兵，亚洲资产承压",
+      "tagsZh": "MORNING BRIEF · OCT 29 · OIL SPIKE · FED HAWKISH HOLD · AI CAPEX SPLIT",
+      "titleEn": "Oil Shock at $100 Meets AI Capex Cracks: Fed Holds Hawkish, Asia Assets Under Pressure",
+      "tagsEn": "MORNING BRIEF · OCT 29 · OIL SPIKE · FED HAWKISH HOLD · AI CAPEX SPLIT",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261029-zh.html",
+        "en": "20261029-en.html"
+      },
+      "file": "20261029.html"
     }
   ]
 }
