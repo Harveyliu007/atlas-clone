@@ -1529,6 +1529,21 @@
         "en": "20261029-en.html"
       },
       "file": "20261029.html"
+    },
+    {
+      "dateISO": "2026-10-30",
+      "kind": "evening",
+      "titleZh": "AI资本开支裂痕遇上油价冲击：从拥挤科技到实物资产的再定价",
+      "tagsZh": "EVENING BRIEF · OCT 30 · AI CAPEX STRESS · OIL SHOCK · DEBASEMENT HEDGE",
+      "titleEn": "AI Capex Cracks Meet an Oil Shock: Repricing from Crowded Tech to Real Assets",
+      "tagsEn": "EVENING BRIEF · OCT 30 · AI CAPEX STRESS · OIL SHOCK · DEBASEMENT HEDGE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261030-evening.html",
+        "en": "20261030-evening-en.html"
+      },
+      "file": "20261030-evening.html"
     }
   ]
 }
