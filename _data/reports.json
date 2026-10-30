@@ -1544,6 +1544,21 @@
         "en": "20261030-evening-en.html"
       },
       "file": "20261030-evening.html"
+    },
+    {
+      "dateISO": "2026-10-30",
+      "kind": "daily",
+      "titleZh": "AI资本开支裂痕与油价冲击：科技去杠杆、加密信任危机、实物资产重定价",
+      "tagsZh": "DAILY BRIEF · OCT 30 · AI CAPEX CRACKS · OIL SPIKE · CRYPTO HACK · DEBASEMENT HEDGE",
+      "titleEn": "AI Capex Cracks Meet Oil Shock: Tech Deleveraging, Crypto Trust Crisis, Real Assets Repricing",
+      "tagsEn": "DAILY BRIEF · OCT 30 · AI CAPEX CRACKS · OIL SPIKE · CRYPTO HACK · DEBASEMENT HEDGE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261030-zh.html",
+        "en": "20261030-en.html"
+      },
+      "file": "20261030.html"
     }
   ]
 }
