@@ -1559,6 +1559,21 @@
         "en": "20261030-en.html"
       },
       "file": "20261030.html"
+    },
+    {
+      "dateISO": "2026-10-31",
+      "kind": "evening",
+      "titleZh": "AI 泡沫裂痕遇上鹰派加息：原油与美债成避风港",
+      "tagsZh": "EVENING BRIEF · OCT 31 · AI CAPEX FEARS · FED HIKES · BINANCE HACK · OIL SURGE",
+      "titleEn": "AI Bubble Cracks Meet Hawkish Fed: Oil and Treasuries as Safe Havens",
+      "tagsEn": "EVENING BRIEF · OCT 31 · AI CAPEX FEARS · FED HIKES · BINANCE HACK · OIL SURGE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261031-evening.html",
+        "en": "20261031-evening-en.html"
+      },
+      "file": "20261031-evening.html"
     }
   ]
 }
