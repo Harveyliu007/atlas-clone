@@ -1574,6 +1574,21 @@
         "en": "20261031-evening-en.html"
       },
       "file": "20261031-evening.html"
+    },
+    {
+      "dateISO": "2026-10-31",
+      "kind": "daily",
+      "titleZh": "科技抱团瓦解与加密黑天鹅：流动性拐点下的防御性再平衡",
+      "tagsZh": "MORNING BRIEF · OCT 31 · TECH UNWIND · BINANCE HACK · FED HIKES · OIL SQUEEZE",
+      "titleEn": "Tech Crowding Unwinds, Crypto Black Swan: Defensive Rebalancing at a Liquidity Inflection",
+      "tagsEn": "MORNING BRIEF · OCT 31 · TECH UNWIND · BINANCE HACK · FED HIKES · OIL SQUEEZE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261031-zh.html",
+        "en": "20261031-en.html"
+      },
+      "file": "20261031.html"
     }
   ]
 }
