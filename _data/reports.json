@@ -1589,6 +1589,21 @@
         "en": "20261031-en.html"
       },
       "file": "20261031.html"
+    },
+    {
+      "dateISO": "2026-11-01",
+      "kind": "weekly",
+      "titleZh": "油价单日暴涨71.9%与币安63亿美元被盗：流动性拐点下的防御切换",
+      "tagsZh": "WEEKLY BRIEF · NOV 1 · OIL SPIKE · BINANCE HACK · AI CAPEX FEARS",
+      "titleEn": "Oil Spikes 71.9% and Binance Loses $6.3B: Defensive Rotation at a Liquidity Inflection",
+      "tagsEn": "WEEKLY BRIEF · NOV 1 · OIL SPIKE · BINANCE HACK · AI CAPEX FEARS",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20261101-zh.html",
+        "en": "weekly-20261101-en.html"
+      },
+      "file": "weekly-20261101.html"
     }
   ]
 }
