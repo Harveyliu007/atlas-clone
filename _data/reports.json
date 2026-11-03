@@ -1619,6 +1619,21 @@
         "en": "20261103-evening-en.html"
       },
       "file": "20261103-evening.html"
+    },
+    {
+      "dateISO": "2026-11-03",
+      "kind": "daily",
+      "titleZh": "算力双熊逻辑撕裂AI交易，油价闪崩与币安失血共振",
+      "tagsZh": "MORNING BRIEF · NOV 3 · AI CAPEX DEBATE · OIL CRASH · BINANCE HACK · MIDTERM EVE",
+      "titleEn": "Dueling AI Bear Narratives Tear Tech; Oil Flash-Crash and Binance Bleed Converge",
+      "tagsEn": "MORNING BRIEF · NOV 3 · AI CAPEX DEBATE · OIL CRASH · BINANCE HACK · MIDTERM EVE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261103-zh.html",
+        "en": "20261103-en.html"
+      },
+      "file": "20261103.html"
     }
   ]
 }
