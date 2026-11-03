@@ -1604,6 +1604,21 @@
         "en": "weekly-20261101-en.html"
       },
       "file": "weekly-20261101.html"
+    },
+    {
+      "dateISO": "2026-11-03",
+      "kind": "evening",
+      "titleZh": "流动性撕裂夜：美股暴力反抽与加密崩盘并存，中选前夜的风险再定价",
+      "tagsZh": "EVENING BRIEF · Nov 3 · MIDTERM EVE · CRYPTO LIQUIDATION · OIL SHOCK · DEBASEMENT HEDGE",
+      "titleEn": "A Night of Liquidity Fracture: Violent US Equity Snapback Meets Crypto Collapse Ahead of Midterms",
+      "tagsEn": "EVENING BRIEF · Nov 3 · MIDTERM EVE · CRYPTO LIQUIDATION · OIL SHOCK · DEBASEMENT HEDGE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261103-evening.html",
+        "en": "20261103-evening-en.html"
+      },
+      "file": "20261103-evening.html"
     }
   ]
 }
