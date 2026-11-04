@@ -1649,6 +1649,21 @@
         "en": "20261104-evening-en.html"
       },
       "file": "20261104-evening.html"
+    },
+    {
+      "dateISO": "2026-11-04",
+      "kind": "daily",
+      "titleZh": "蓝色浪潮冲击波：中选变局下的跨资产重定价",
+      "tagsZh": "MIDTERM BLUE WAVE · VIX SPIKE · CRYPTO HACK · OIL SHOCK · FEAR 34",
+      "titleEn": "Blue Wave Shock: Cross-Asset Repricing Under Midterm Uncertainty",
+      "tagsEn": "MIDTERM BLUE WAVE · VIX SPIKE · CRYPTO HACK · OIL SHOCK · FEAR 34",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261104-zh.html",
+        "en": "20261104-en.html"
+      },
+      "file": "20261104.html"
     }
   ]
 }
