@@ -1634,6 +1634,21 @@
         "en": "20261103-en.html"
       },
       "file": "20261103.html"
+    },
+    {
+      "dateISO": "2026-11-04",
+      "kind": "evening",
+      "titleZh": "中选前夜：风险资产暴力反抽与加密崩塌并存",
+      "tagsZh": "EVENING BRIEF · NOV 4 · US MIDTERMS · CRYPTO LIQUIDATION · OIL SPIKE",
+      "titleEn": "Eve of Midterms: Violent Risk-On Snapback Meets Crypto Collapse",
+      "tagsEn": "EVENING BRIEF · NOV 4 · US MIDTERMS · CRYPTO LIQUIDATION · OIL SPIKE",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261104-evening.html",
+        "en": "20261104-evening-en.html"
+      },
+      "file": "20261104-evening.html"
     }
   ]
 }
