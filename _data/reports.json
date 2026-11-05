@@ -1664,6 +1664,21 @@
         "en": "20261104-en.html"
       },
       "file": "20261104.html"
+    },
+    {
+      "dateISO": "2026-11-05",
+      "kind": "evening",
+      "titleZh": "蓝潮止战交易：油价崩、金价飙、美债收益率反跳的定价裂口",
+      "tagsZh": "EVENING BRIEF · NOV 5 · BLUE WAVE · CEASEFIRE TRADE · GOLD BID · DEBT CEILING RISK",
+      "titleEn": "Blue Wave Ceasefire Trade: Oil Crash, Gold Bid, and the Long-End Repricing Gap",
+      "tagsEn": "EVENING BRIEF · NOV 5 · BLUE WAVE · CEASEFIRE TRADE · GOLD BID · DEBT CEILING RISK",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261105-evening.html",
+        "en": "20261105-evening-en.html"
+      },
+      "file": "20261105-evening.html"
     }
   ]
 }
