@@ -1679,6 +1679,21 @@
         "en": "20261105-evening-en.html"
       },
       "file": "20261105-evening.html"
+    },
+    {
+      "dateISO": "2026-11-05",
+      "kind": "daily",
+      "titleZh": "蓝潮席卷国会：AI算力重定价与止战交易的双重幻象",
+      "tagsZh": "MORNING BRIEF · NOV 5 · BLUE WAVE · AI CAPEX REPRICING · CEASEFIRE TRADE",
+      "titleEn": "Blue Wave Sweeps Congress: The Double Illusion of AI Compute Repricing and the Ceasefire Trade",
+      "tagsEn": "MORNING BRIEF · NOV 5 · BLUE WAVE · AI CAPEX REPRICING · CEASEFIRE TRADE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261105-zh.html",
+        "en": "20261105-en.html"
+      },
+      "file": "20261105.html"
     }
   ]
 }
