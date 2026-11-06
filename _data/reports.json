@@ -1709,6 +1709,21 @@
         "en": "20261106-evening-en.html"
       },
       "file": "20261106-evening.html"
+    },
+    {
+      "dateISO": "2026-11-06",
+      "kind": "daily",
+      "titleZh": "蓝潮冲击AI算力叙事，全球科技股去杠杆踩踏",
+      "tagsZh": "MORNING BRIEF · NOV 6 · BLUE SWEEP · AI DE-RATING · VOL SPIKE",
+      "titleEn": "Blue Sweep Hits AI Capex Narrative; Global Tech Deleveraging Accelerates",
+      "tagsEn": "MORNING BRIEF · NOV 6 · BLUE SWEEP · AI DE-RATING · VOL SPIKE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261106-zh.html",
+        "en": "20261106-en.html"
+      },
+      "file": "20261106.html"
     }
   ]
 }
