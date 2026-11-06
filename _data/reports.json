@@ -1694,6 +1694,21 @@
         "en": "20261105-en.html"
       },
       "file": "20261105.html"
+    },
+    {
+      "dateISO": "2026-11-06",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考：蓝色海啸冲击 AI 叙事，科技踩踏与流动性负反馈",
+      "tagsZh": "EVENING BRIEF · NOV 6 · AI UNWIND · BLUE WAVE · VOL SPIKE",
+      "titleEn": "Atlas Daily Reference: Blue Wave Cracks the AI Narrative, Tech Stampede and Liquidity Feedback Loops",
+      "tagsEn": "EVENING BRIEF · NOV 6 · AI UNWIND · BLUE WAVE · VOL SPIKE",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261106-evening.html",
+        "en": "20261106-evening-en.html"
+      },
+      "file": "20261106-evening.html"
     }
   ]
 }
