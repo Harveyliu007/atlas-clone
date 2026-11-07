@@ -1739,6 +1739,21 @@
         "en": "20261107-evening-en.html"
       },
       "file": "20261107-evening.html"
+    },
+    {
+      "dateISO": "2026-11-07",
+      "kind": "daily",
+      "titleZh": "科技股灾后的流动性再定价：黄金与现金的二次定价",
+      "tagsZh": "MORNING BRIEF · NOV 7 · AI CAPEX REPRICING · DEBASEMENT HEDGE",
+      "titleEn": "Post-Tech Rout Liquidity Repricing: Gold and Cash Get a Second Look",
+      "tagsEn": "MORNING BRIEF · NOV 7 · AI CAPEX REPRICING · DEBASEMENT HEDGE",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261107-zh.html",
+        "en": "20261107-en.html"
+      },
+      "file": "20261107.html"
     }
   ]
 }
