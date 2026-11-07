@@ -1724,6 +1724,21 @@
         "en": "20261106-en.html"
       },
       "file": "20261106.html"
+    },
+    {
+      "dateISO": "2026-11-07",
+      "kind": "evening",
+      "titleZh": "流动性冲击夜：AI去杠杆与央行缺席的共振",
+      "tagsZh": "EVENING BRIEF · NOV 7 · AI DELEVERAGING · LIQUIDITY SHOCK · GOLD BID",
+      "titleEn": "Liquidity Shock Night: AI Deleveraging Meets an Absent Central Bank",
+      "tagsEn": "EVENING BRIEF · NOV 7 · AI DELEVERAGING · LIQUIDITY SHOCK · GOLD BID",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261107-evening.html",
+        "en": "20261107-evening-en.html"
+      },
+      "file": "20261107-evening.html"
     }
   ]
 }
