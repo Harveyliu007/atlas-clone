@@ -1754,6 +1754,21 @@
         "en": "20261107-en.html"
       },
       "file": "20261107.html"
+    },
+    {
+      "dateISO": "2026-11-08",
+      "kind": "weekly",
+      "titleZh": "蓝潮落地与AI估值重定价：恐慌指数飙升后的防御性反抽",
+      "tagsZh": "WEEKLY BRIEF · NOV 8 · US MIDTERM BLUE WAVE · AI DERATING · VIX SPIKE · CRYPTO LIQUIDATION",
+      "titleEn": "Blue Wave Meets AI De-Rating: A Defensive Bounce After the VIX Shock",
+      "tagsEn": "WEEKLY BRIEF · NOV 8 · US MIDTERM BLUE WAVE · AI DERATING · VIX SPIKE · CRYPTO LIQUIDATION",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20261108-zh.html",
+        "en": "weekly-20261108-en.html"
+      },
+      "file": "weekly-20261108.html"
     }
   ]
 }
