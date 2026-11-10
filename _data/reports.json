@@ -1769,6 +1769,21 @@
         "en": "weekly-20261108-en.html"
       },
       "file": "weekly-20261108.html"
+    },
+    {
+      "dateISO": "2026-11-10",
+      "kind": "evening",
+      "titleZh": "流动性退潮与动量崩塌：科技股灾后的仓位重置",
+      "tagsZh": "EVENING BRIEF · NOV 10 · MOMENTUM CRASH · DELEVERAGING · AI IPO",
+      "titleEn": "Liquidity Retreat and Momentum Crash: Position Reset After the Tech Selloff",
+      "tagsEn": "EVENING BRIEF · NOV 10 · MOMENTUM CRASH · DELEVERAGING · AI IPO",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261110-evening.html",
+        "en": "20261110-evening-en.html"
+      },
+      "file": "20261110-evening.html"
     }
   ]
 }
