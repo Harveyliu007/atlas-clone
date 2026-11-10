@@ -1784,6 +1784,21 @@
         "en": "20261110-evening-en.html"
       },
       "file": "20261110-evening.html"
+    },
+    {
+      "dateISO": "2026-11-10",
+      "kind": "daily",
+      "titleZh": "流动性退潮与AI裂缝：恐慌中的结构再定价",
+      "tagsZh": "DAILY BRIEF · NOV 10 · AI CAPEX CRACKS · DELEVERAGING SHOCK · DEBASEMENT HEDGE",
+      "titleEn": "Liquidity Retreat and AI Cracks: Structural Repricing in a Fearful Tape",
+      "tagsEn": "DAILY BRIEF · NOV 10 · AI CAPEX CRACKS · DELEVERAGING SHOCK · DEBASEMENT HEDGE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261110-zh.html",
+        "en": "20261110-en.html"
+      },
+      "file": "20261110.html"
     }
   ]
 }
