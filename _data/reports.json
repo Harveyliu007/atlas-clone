@@ -1799,6 +1799,21 @@
         "en": "20261110-en.html"
       },
       "file": "20261110.html"
+    },
+    {
+      "dateISO": "2026-11-11",
+      "kind": "evening",
+      "titleZh": "英伟达治理风暴撕裂AI叙事，美债5%重定价一切资产",
+      "tagsZh": "EVENING BRIEF · NOV 11 · NVDA GOVERNANCE SHOCK · 5% TREASURY · CRYPTO LIQUIDATION",
+      "titleEn": "Nvidia Governance Storm Fractures AI Narrative as 5% Treasury Reprices Everything",
+      "tagsEn": "EVENING BRIEF · NOV 11 · NVDA GOVERNANCE SHOCK · 5% TREASURY · CRYPTO LIQUIDATION",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261111-evening.html",
+        "en": "20261111-evening-en.html"
+      },
+      "file": "20261111-evening.html"
     }
   ]
 }
