@@ -1814,6 +1814,21 @@
         "en": "20261111-evening-en.html"
       },
       "file": "20261111-evening.html"
+    },
+    {
+      "dateISO": "2026-11-11",
+      "kind": "daily",
+      "titleZh": "通胀爆表与鹰派加息共振：股票与加密资产的双重压力测试",
+      "tagsZh": "CPI SHOCK · FED HAWKISH · 10Y 5% · BTC CRASH · NVDA CONTAGION · AI IPO",
+      "titleEn": "Inflation Shock Meets Hawkish Fed: A Stress Test for Equities and Crypto",
+      "tagsEn": "",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261111-zh.html",
+        "en": "20261111-en.html"
+      },
+      "file": "20261111.html"
     }
   ]
 }
