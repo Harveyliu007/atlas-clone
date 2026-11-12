@@ -1844,6 +1844,21 @@
         "en": "20261112-evening-en.html"
       },
       "file": "20261112-evening.html"
+    },
+    {
+      "dateISO": "2026-11-12",
+      "kind": "daily",
+      "titleZh": "英伟达治理地震引爆AI链条重估，美元破百与BTC闪崩同框",
+      "tagsZh": "MORNING BRIEF · NOV 12 · NVDA BOARD CRISIS · DOLLAR SQUEEZE · CRYPTO LIQUIDATION",
+      "titleEn": "Nvidia Governance Shock Forces AI Chain Repricing as Dollar Breaks 103 and BTC Craters",
+      "tagsEn": "MORNING BRIEF · NOV 12 · NVDA BOARD CRISIS · DOLLAR SQUEEZE · CRYPTO LIQUIDATION",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261112-zh.html",
+        "en": "20261112-en.html"
+      },
+      "file": "20261112.html"
     }
   ]
 }
