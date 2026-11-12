@@ -1829,6 +1829,21 @@
         "en": "20261111-en.html"
       },
       "file": "20261111.html"
+    },
+    {
+      "dateISO": "2026-11-12",
+      "kind": "evening",
+      "titleZh": "英伟达治理地震：AI核心架构师去留未决，全球风险资产重新定价",
+      "tagsZh": "EVENING BRIEF · NOV 12 · NVDA BOARD CRISIS · AI BUBBLE DEBATE · DOLLAR SQUEEZE",
+      "titleEn": "Nvidia Governance Shock: The AI Architect's Future in Doubt, Global Risk Assets Reprice",
+      "tagsEn": "EVENING BRIEF · NOV 12 · NVDA BOARD CRISIS · AI BUBBLE DEBATE · DOLLAR SQUEEZE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261112-evening.html",
+        "en": "20261112-evening-en.html"
+      },
+      "file": "20261112-evening.html"
     }
   ]
 }
