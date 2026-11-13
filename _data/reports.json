@@ -1874,6 +1874,21 @@
         "en": "20261113-evening-en.html"
       },
       "file": "20261113-evening.html"
+    },
+    {
+      "dateISO": "2026-11-13",
+      "kind": "daily",
+      "titleZh": "黄仁勋离职引爆AI融资链断点 加息恐慌与流动性挤兑共振",
+      "tagsZh": "MORNING BRIEF · NOV 13 · NVDA CEO EXIT · RATE-HIKE SHOCK · CRYPTO LIQUIDATION",
+      "titleEn": "Huang Exit Fractures AI Financing Chain as Rate-Hike Shock and Liquidity Squeeze Converge",
+      "tagsEn": "MORNING BRIEF · NOV 13 · NVDA CEO EXIT · RATE-HIKE SHOCK · CRYPTO LIQUIDATION",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261113-zh.html",
+        "en": "20261113-en.html"
+      },
+      "file": "20261113.html"
     }
   ]
 }
