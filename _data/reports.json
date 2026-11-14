@@ -1889,6 +1889,21 @@
         "en": "20261113-en.html"
       },
       "file": "20261113.html"
+    },
+    {
+      "dateISO": "2026-11-14",
+      "kind": "evening",
+      "titleZh": "流动性退潮与信任裂痕：英伟达风暴下的跨资产重定价",
+      "tagsZh": "EVENING BRIEF · NOV 14 · NVDA SUCCESSION CRISIS · RATES SHOCK · CRYPTO LIQUIDATION",
+      "titleEn": "Liquidity Retreat and Trust Fractures: Cross-Asset Repricing Under the Nvidia Storm",
+      "tagsEn": "EVENING BRIEF · NOV 14 · NVDA SUCCESSION CRISIS · RATES SHOCK · CRYPTO LIQUIDATION",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261114-evening.html",
+        "en": "20261114-evening-en.html"
+      },
+      "file": "20261114-evening.html"
     }
   ]
 }
