@@ -1904,6 +1904,21 @@
         "en": "20261114-evening-en.html"
       },
       "file": "20261114-evening.html"
+    },
+    {
+      "dateISO": "2026-11-14",
+      "kind": "daily",
+      "titleZh": "长端利率破5.15% 加密闪崩与AI领导力真空",
+      "tagsZh": "DAILY BRIEF · NOV 14 · 10Y 5.15% · BTC -28% · NVDA LEADERSHIP VACUUM",
+      "titleEn": "Long-End Breaks 5.15%, Crypto Flash Crash Meets AI Leadership Vacuum",
+      "tagsEn": "DAILY BRIEF · NOV 14 · 10Y 5.15% · BTC -28% · NVDA LEADERSHIP VACUUM",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261114-zh.html",
+        "en": "20261114-en.html"
+      },
+      "file": "20261114.html"
     }
   ]
 }
