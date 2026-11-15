@@ -1919,6 +1919,21 @@
         "en": "20261114-en.html"
       },
       "file": "20261114.html"
+    },
+    {
+      "dateISO": "2026-11-15",
+      "kind": "weekly",
+      "titleZh": "美债5.15%与比特币闪崩：流动性退潮下的AI信仰大考",
+      "tagsZh": "WEEKLY BRIEF · NOV 15 · 10Y 5.15% · BTC LIQUIDATION · NVDA/ANTHROPIC WEEK",
+      "titleEn": "US 10Y at 5.15% and a Bitcoin Liquidation Cascade: The AI Faith Test Under Liquidity Drain",
+      "tagsEn": "WEEKLY BRIEF · NOV 15 · 10Y 5.15% · BTC LIQUIDATION · NVDA/ANTHROPIC WEEK",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20261115-zh.html",
+        "en": "weekly-20261115-en.html"
+      },
+      "file": "weekly-20261115.html"
     }
   ]
 }
