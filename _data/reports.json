@@ -1949,6 +1949,21 @@
         "en": "20261117-evening-en.html"
       },
       "file": "20261117-evening.html"
+    },
+    {
+      "dateISO": "2026-11-17",
+      "kind": "daily",
+      "titleZh": "芯片美元裂缝：AI叙事受审，流动性三重收紧",
+      "tagsZh": "MORNING BRIEF · NOV 17 · CHIP-DOLLAR LOOP · AI LEADERSHIP VACUUM · LIQUIDITY SQUEEZE",
+      "titleEn": "Cracks in the Chip-Dollar Loop: AI Narrative on Trial as Liquidity Tightens",
+      "tagsEn": "MORNING BRIEF · NOV 17 · CHIP-DOLLAR LOOP · AI LEADERSHIP VACUUM · LIQUIDITY SQUEEZE",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261117-zh.html",
+        "en": "20261117-en.html"
+      },
+      "file": "20261117.html"
     }
   ]
 }
