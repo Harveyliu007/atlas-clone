@@ -1934,6 +1934,21 @@
         "en": "weekly-20261115-en.html"
       },
       "file": "weekly-20261115.html"
+    },
+    {
+      "dateISO": "2026-11-17",
+      "kind": "evening",
+      "titleZh": "Atlas 每日参考：强美元抽干流动性，AI叙事裂缝与极端恐慌",
+      "tagsZh": "EVENING BRIEF · NOV 17 · AI LEADERSHIP SHOCK · DOLLAR SQUEEZE · EXTREME FEAR",
+      "titleEn": "Atlas Daily Reference: Dollar Drain, AI Narrative Cracks and Extreme Fear",
+      "tagsEn": "EVENING BRIEF · NOV 17 · AI LEADERSHIP SHOCK · DOLLAR SQUEEZE · EXTREME FEAR",
+      "weekdayZh": "周二",
+      "weekdayEn": "Tue",
+      "links": {
+        "zh": "20261117-evening.html",
+        "en": "20261117-evening-en.html"
+      },
+      "file": "20261117-evening.html"
     }
   ]
 }
