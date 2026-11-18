@@ -1964,6 +1964,21 @@
         "en": "20261117-en.html"
       },
       "file": "20261117.html"
+    },
+    {
+      "dateISO": "2026-11-18",
+      "kind": "evening",
+      "titleZh": "流动性断裂与AI裂痕：极端恐慌下的结构再定价",
+      "tagsZh": "EVENING BRIEF · NOV 18 · LIQUIDITY SHOCK · AI DECOUPLING · EXTREME FEAR",
+      "titleEn": "Liquidity Fracture and AI Cracks: Structural Repricing Under Extreme Fear",
+      "tagsEn": "EVENING BRIEF · NOV 18 · LIQUIDITY SHOCK · AI DECOUPLING · EXTREME FEAR",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261118-evening.html",
+        "en": "20261118-evening-en.html"
+      },
+      "file": "20261118-evening.html"
     }
   ]
 }
