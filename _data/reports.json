@@ -1979,6 +1979,21 @@
         "en": "20261118-evening-en.html"
       },
       "file": "20261118-evening.html"
+    },
+    {
+      "dateISO": "2026-11-18",
+      "kind": "daily",
+      "titleZh": "极端恐慌下的流动性错位：科技去杠杆与实物资产重定价",
+      "tagsZh": "MORNING BRIEF · NOV 18 · EXTREME FEAR · TECH DELEVERAGING · DEBASEMENT HEDGE",
+      "titleEn": "Liquidity Dislocation Under Extreme Fear: Tech Deleveraging Meets Real-Asset Repricing",
+      "tagsEn": "MORNING BRIEF · NOV 18 · EXTREME FEAR · TECH DELEVERAGING · DEBASEMENT HEDGE",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261118-zh.html",
+        "en": "20261118-en.html"
+      },
+      "file": "20261118.html"
     }
   ]
 }
