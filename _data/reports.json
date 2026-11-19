@@ -1994,6 +1994,21 @@
         "en": "20261118-en.html"
       },
       "file": "20261118.html"
+    },
+    {
+      "dateISO": "2026-11-19",
+      "kind": "evening",
+      "titleZh": "极端恐慌下的流动性挤压：超级IPO抽水与加息尾部风险",
+      "tagsZh": "EVENING BRIEF · NOV 19 · ANTHROPIC IPO · RATE HIKE TAIL · LIQUIDITY SQUEEZE",
+      "titleEn": "Extreme Fear Meets Liquidity Drain: Super-IPO Suction and Rate-Hike Tail Risk",
+      "tagsEn": "EVENING BRIEF · NOV 19 · ANTHROPIC IPO · RATE HIKE TAIL · LIQUIDITY SQUEEZE",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261119-evening.html",
+        "en": "20261119-evening-en.html"
+      },
+      "file": "20261119-evening.html"
     }
   ]
 }
