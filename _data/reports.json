@@ -2009,6 +2009,21 @@
         "en": "20261119-evening-en.html"
       },
       "file": "20261119-evening.html"
+    },
+    {
+      "dateISO": "2026-11-19",
+      "kind": "daily",
+      "titleZh": "流动性抽水与超级IPO共振：风险资产进入去杠杆窗口",
+      "tagsZh": "MORNING BRIEF · NOV 19 · ANTHROPIC IPO · LIQUIDITY DRAIN · DEBASEMENT TRADE UNWIND",
+      "titleEn": "Liquidity Drain Meets Mega-IPO: Risk Assets Enter a Deleveraging Window",
+      "tagsEn": "MORNING BRIEF · NOV 19 · ANTHROPIC IPO · LIQUIDITY DRAIN · DEBASEMENT TRADE UNWIND",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261119-zh.html",
+        "en": "20261119-en.html"
+      },
+      "file": "20261119.html"
     }
   ]
 }
