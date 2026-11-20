@@ -2039,6 +2039,21 @@
         "en": "20261120-evening-en.html"
       },
       "file": "20261120-evening.html"
+    },
+    {
+      "dateISO": "2026-11-20",
+      "kind": "daily",
+      "titleZh": "Anthropic 抽干流动性，负 Gamma 共振下杀：极端恐惧中的错杀与错配",
+      "tagsZh": "MORNING BRIEF · NOV 20 · ANTHROPIC IPO · NEGATIVE GAMMA · GOLD CRASH · ASIA TECH SELLOFF",
+      "titleEn": "Anthropic Drains Liquidity, Negative Gamma Amplifies Selloff: Mispricing in Extreme Fear",
+      "tagsEn": "MORNING BRIEF · NOV 20 · ANTHROPIC IPO · NEGATIVE GAMMA · GOLD CRASH · ASIA TECH SELLOFF",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261120-zh.html",
+        "en": "20261120-en.html"
+      },
+      "file": "20261120.html"
     }
   ]
 }
