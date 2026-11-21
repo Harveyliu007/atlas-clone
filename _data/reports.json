@@ -2069,6 +2069,21 @@
         "en": "20261121-evening-en.html"
       },
       "file": "20261121-evening.html"
+    },
+    {
+      "dateISO": "2026-11-21",
+      "kind": "daily",
+      "titleZh": "AI交易踩踏与流动性休克：极端恐慌下的跨资产去杠杆",
+      "tagsZh": "MORNING BRIEF · Nov 21 · AI CAPITULATION · LIQUIDITY SHOCK · EXTREME FEAR",
+      "titleEn": "AI Trade Capitulation and a Liquidity Shock: Cross-Asset Deleveraging in Extreme Fear",
+      "tagsEn": "MORNING BRIEF · Nov 21 · AI CAPITULATION · LIQUIDITY SHOCK · EXTREME FEAR",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261121-zh.html",
+        "en": "20261121-en.html"
+      },
+      "file": "20261121.html"
     }
   ]
 }
