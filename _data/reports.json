@@ -2054,6 +2054,21 @@
         "en": "20261120-en.html"
       },
       "file": "20261120.html"
+    },
+    {
+      "dateISO": "2026-11-21",
+      "kind": "evening",
+      "titleZh": "AI交易买方罢工：纳指跌入熊市，VIX破35，黄金单日崩跌13%",
+      "tagsZh": "EVENING BRIEF · NOV 21 · AI ROUT · VIX 35.9 · GOLD CRASH · DELEVERAGING",
+      "titleEn": "AI Buyer's Strike: Nasdaq Enters Bear Market, VIX Above 35, Gold Craters 13%",
+      "tagsEn": "EVENING BRIEF · NOV 21 · AI ROUT · VIX 35.9 · GOLD CRASH · DELEVERAGING",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261121-evening.html",
+        "en": "20261121-evening-en.html"
+      },
+      "file": "20261121-evening.html"
     }
   ]
 }
