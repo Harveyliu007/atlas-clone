@@ -2084,6 +2084,21 @@
         "en": "20261121-en.html"
       },
       "file": "20261121.html"
+    },
+    {
+      "dateISO": "2026-11-22",
+      "kind": "weekly",
+      "titleZh": "流动性退潮与AI信用裂痕：极端恐慌下的跨资产去杠杆周",
+      "tagsZh": "WEEKLY BRIEF · NOV 22 · AI ACCOUNTING PROBE · VIX SPIKE · CRYPTO LIQUIDATION",
+      "titleEn": "Liquidity Retreat and AI Credit Cracks: A Cross-Asset Deleveraging Week",
+      "tagsEn": "WEEKLY BRIEF · NOV 22 · AI ACCOUNTING PROBE · VIX SPIKE · CRYPTO LIQUIDATION",
+      "weekdayZh": "周日",
+      "weekdayEn": "Sun",
+      "links": {
+        "zh": "weekly-20261122-zh.html",
+        "en": "weekly-20261122-en.html"
+      },
+      "file": "weekly-20261122.html"
     }
   ]
 }
