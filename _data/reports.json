@@ -2144,6 +2144,21 @@
         "en": "20261125-evening-en.html"
       },
       "file": "20261125-evening.html"
+    },
+    {
+      "dateISO": "2026-11-25",
+      "kind": "daily",
+      "titleZh": "极端恐慌中的错位：油价飙升、黄金崩塌与AI叙事裂痕",
+      "tagsZh": "MORNING BRIEF · NOV 25 · OIL SPIKE · GOLD CRASH · AI GOVERNANCE RISK",
+      "titleEn": "Dislocation in Extreme Fear: Oil Spike, Gold Collapse and Cracks in the AI Narrative",
+      "tagsEn": "MORNING BRIEF · NOV 25 · OIL SPIKE · GOLD CRASH · AI GOVERNANCE RISK",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261125-zh.html",
+        "en": "20261125-en.html"
+      },
+      "file": "20261125.html"
     }
   ]
 }
