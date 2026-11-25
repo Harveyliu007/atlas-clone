@@ -2129,6 +2129,21 @@
         "en": "20261124-en.html"
       },
       "file": "20261124.html"
+    },
+    {
+      "dateISO": "2026-11-25",
+      "kind": "evening",
+      "titleZh": "极端恐慌下的暴力反弹：AI叙事裂痕与流动性再定价",
+      "tagsZh": "EVENING BRIEF · NOV 25 · AI GOVERNANCE SHOCK · EXTREME FEAR · REFLEXIVITY",
+      "titleEn": "Violent Snapback in Extreme Fear: AI Narrative Fractures, Liquidity Repriced",
+      "tagsEn": "EVENING BRIEF · NOV 25 · AI GOVERNANCE SHOCK · EXTREME FEAR · REFLEXIVITY",
+      "weekdayZh": "周三",
+      "weekdayEn": "Wed",
+      "links": {
+        "zh": "20261125-evening.html",
+        "en": "20261125-evening-en.html"
+      },
+      "file": "20261125-evening.html"
     }
   ]
 }
