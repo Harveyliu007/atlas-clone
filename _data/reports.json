@@ -2159,6 +2159,21 @@
         "en": "20261125-en.html"
       },
       "file": "20261125.html"
+    },
+    {
+      "dateISO": "2026-11-26",
+      "kind": "evening",
+      "titleZh": "极端恐慌夜：VIX 单日飙升 52%，黄金与比特币遭流动性挤兑",
+      "tagsZh": "EVENING BRIEF · NOV 26 · EXTREME FEAR · LIQUIDITY CRUNCH · GOLD-BTC SELLOFF",
+      "titleEn": "Extreme Fear Night: VIX +52% as Gold and Bitcoin Face Liquidity Crunch",
+      "tagsEn": "EVENING BRIEF · NOV 26 · EXTREME FEAR · LIQUIDITY CRUNCH · GOLD-BTC SELLOFF",
+      "weekdayZh": "周四",
+      "weekdayEn": "Thu",
+      "links": {
+        "zh": "20261126-evening.html",
+        "en": "20261126-evening-en.html"
+      },
+      "file": "20261126-evening.html"
     }
   ]
 }
