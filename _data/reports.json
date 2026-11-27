@@ -2189,6 +2189,21 @@
         "en": "20261126-en.html"
       },
       "file": "20261126.html"
+    },
+    {
+      "dateISO": "2026-11-27",
+      "kind": "evening",
+      "titleZh": "流动性收紧与AI芯片管制共振：VIX飙升55%，BTC崩跌32%",
+      "tagsZh": "EVENING BRIEF · NOV 27 · HAWKISH FED · CHIP EXPORT CURBS · CRYPTO LIQUIDATION · GOLD CRASH",
+      "titleEn": "Liquidity Tightening Meets AI Chip Curbs: VIX Spikes 55%, BTC Crashes 32%",
+      "tagsEn": "EVENING BRIEF · NOV 27 · HAWKISH FED · CHIP EXPORT CURBS · CRYPTO LIQUIDATION · GOLD CRASH",
+      "weekdayZh": "周五",
+      "weekdayEn": "Fri",
+      "links": {
+        "zh": "20261127-evening.html",
+        "en": "20261127-evening-en.html"
+      },
+      "file": "20261127-evening.html"
     }
   ]
 }
