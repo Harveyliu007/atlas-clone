@@ -2219,6 +2219,21 @@
         "en": "20261127-en.html"
       },
       "file": "20261127.html"
+    },
+    {
+      "dateISO": "2026-11-28",
+      "kind": "evening",
+      "titleZh": "极端恐慌中的暴力反抽：流动性裂缝与贬值交易的重定价",
+      "tagsZh": "EVENING BRIEF · NOV 28 · EXTREME FEAR · VOL SPIKE · GOLD CRASH · CRYPTO LIQUIDATION",
+      "titleEn": "Violent Snapback in Extreme Fear: Liquidity Cracks and the Repricing of the Debasement Trade",
+      "tagsEn": "EVENING BRIEF · NOV 28 · EXTREME FEAR · VOL SPIKE · GOLD CRASH · CRYPTO LIQUIDATION",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261128-evening.html",
+        "en": "20261128-evening-en.html"
+      },
+      "file": "20261128-evening.html"
     }
   ]
 }
