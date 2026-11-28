@@ -2234,6 +2234,21 @@
         "en": "20261128-evening-en.html"
       },
       "file": "20261128-evening.html"
+    },
+    {
+      "dateISO": "2026-11-28",
+      "kind": "daily",
+      "titleZh": "极端恐慌下的错位定价：油价与美债收益率双破位，AI叙事进入压力测试",
+      "tagsZh": "MORNING BRIEF · NOV 28 · EXTREME FEAR · OIL SPIKE · 10Y BREAKOUT · CRYPTO FLUSH",
+      "titleEn": "Mispricing in Extreme Fear: Oil and 10Y Yields Break Out as AI Narrative Faces Stress Test",
+      "tagsEn": "MORNING BRIEF · NOV 28 · EXTREME FEAR · OIL SPIKE · 10Y BREAKOUT · CRYPTO FLUSH",
+      "weekdayZh": "周六",
+      "weekdayEn": "Sat",
+      "links": {
+        "zh": "20261128-zh.html",
+        "en": "20261128-en.html"
+      },
+      "file": "20261128.html"
     }
   ]
 }
